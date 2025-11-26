@@ -20,7 +20,7 @@ export default function Home() {
       {/* HERO */}
       <div className="home-hero">
         <div className="home-hero-left">
-          <img src="/hero.png" alt="Kocayayla köyü manzarası" />
+          <img src={process.env.PUBLIC_URL + "/hero.png"} alt="Kocayayla köyü manzarası" />
         </div>
 
         <div className="home-hero-right">
@@ -72,6 +72,15 @@ export default function Home() {
 
             <div className="duyuru-icerik-home">
               <p>{d.aciklama}</p>
+
+              {/* FOTOĞRAF VARSA GÖSTER */}
+              {d.gorsel && (
+                <img
+                  src={d.gorsel}
+                  alt={d.baslik}
+                  className="duyuru-home-img"
+                />
+              )}
             </div>
           </div>
         ))}

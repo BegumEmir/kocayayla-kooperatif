@@ -5,8 +5,8 @@ export default function Galeri() {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const images = [
-    "/galeri/1.jpeg",
-    "/galeri/2.jpeg"
+    process.env.PUBLIC_URL + "/galeri/1.jpeg",
+    process.env.PUBLIC_URL + "/galeri/2.jpeg"
   ];
 
   return (

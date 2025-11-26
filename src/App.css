@@ -1,7 +1,30 @@
-/* ========== GENEL STİLLER ========== */
+/* Sayfayı dikey esnetme */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* #root'u flex container yapıyoruz */
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-container {
+  flex: 1;        /* Root yüksekliğinin kalanını kaplasın */
+  display: flex;
+  flex-direction: column;
+}
+
+.page-content {
+  flex: 1;        /* İçerik kısa olsa bile footer'ı alta iter */
+}
+
+
+/* ----------- Diğer stiller ----------- */
 
 body {
-  margin: 0;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   background: #f3ede2;
   color: #333;

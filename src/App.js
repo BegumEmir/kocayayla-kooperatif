@@ -16,40 +16,42 @@ import DenetimKurulu from "./pages/DenetimKurulu";
 
 import Footer from "./components/Footer";
 
-
 import "./App.css";
 
 function App() {
   return (
     <Router>
-      <Navbar />
+      <div className="app-container">
+        <Navbar />
 
-      <Routes>
-        <Route path="/" element={<Home />} />
+        <div className="page-content">
+          <Routes>
+            <Route path="/" element={<Home />} />
 
-        {/* Kurumsal */}
-        <Route path="/kurumsal/hakkimizda" element={<Hakkimizda />} />
-        <Route path="/kurumsal/yonetim-kurulu" element={<YonetimKurulu />} />
-        <Route path="/kurumsal/denetim-kurulu" element={<DenetimKurulu />} />
+            {/* Kurumsal */}
+            <Route path="/kurumsal/hakkimizda" element={<Hakkimizda />} />
+            <Route path="/kurumsal/yonetim-kurulu" element={<YonetimKurulu />} />
+            <Route path="/kurumsal/denetim-kurulu" element={<DenetimKurulu />} />
 
-        <Route path="/kurumsal/ortaklarimiz" element={<Ortaklarimiz />} />
-        
+            <Route path="/kurumsal/ortaklarimiz" element={<Ortaklarimiz />} />
 
-        {/* Faaliyetler (butondan gidiyor) */}
-        <Route path="/faaliyetler" element={<Faaliyetler />} />
+            {/* Faaliyetler */}
+            <Route path="/faaliyetler" element={<Faaliyetler />} />
 
-        {/* Medya Odası */}
-        <Route path="/medya/haberlerimiz" element={<Haberlerimiz />} />
-        <Route path="/medya/duyurularimiz" element={<Duyurularimiz />} />
-        <Route path="/medya/galeri" element={<Galeri />} />
+            {/* Medya Odası */}
+            <Route path="/medya/haberlerimiz" element={<Haberlerimiz />} />
+            <Route path="/medya/duyurularimiz" element={<Duyurularimiz />} />
+            <Route path="/medya/galeri" element={<Galeri />} />
 
-        {/* İletişim */}
-        <Route path="/iletisim" element={<Iletisim />} />
+            {/* İletişim */}
+            <Route path="/iletisim" element={<Iletisim />} />
 
-        <Route path="/haber/:id" element={<HaberDetay />} />
-      </Routes>
+            <Route path="/haber/:id" element={<HaberDetay />} />
+          </Routes>
+        </div>
 
-      <Footer /> 
+        <Footer />
+      </div>
     </Router>
   );
 }

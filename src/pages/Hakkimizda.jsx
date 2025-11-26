@@ -22,7 +22,7 @@ export default function Hakkimizda() {
         {/* Görsel alan – şimdilik placeholder, sonra foto koyarsın */}
         <div className="hakkimizda-hero-image">
           <div className="hakkimizda-hero-placeholder">
-            <img src="/images/koop1.jpeg" alt="Kooperatif Fotoğrafı" />
+            <img src={process.env.PUBLIC_URL + "/images/koop1.jpeg"} alt="Kooperatif Fotoğrafı" />
           </div>
         </div>
       </section>
