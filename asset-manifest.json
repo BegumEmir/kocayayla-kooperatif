@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/kocayayla-kooperatif/static/css/main.0a887eb2.css",
+    "main.css": "/kocayayla-kooperatif/static/css/main.e2885398.css",
     "main.js": "/kocayayla-kooperatif/static/js/main.8fe174c2.js",
     "static/js/453.95d9d34a.chunk.js": "/kocayayla-kooperatif/static/js/453.95d9d34a.chunk.js",
     "index.html": "/kocayayla-kooperatif/index.html",
-    "main.0a887eb2.css.map": "/kocayayla-kooperatif/static/css/main.0a887eb2.css.map",
+    "main.e2885398.css.map": "/kocayayla-kooperatif/static/css/main.e2885398.css.map",
     "main.8fe174c2.js.map": "/kocayayla-kooperatif/static/js/main.8fe174c2.js.map",
     "453.95d9d34a.chunk.js.map": "/kocayayla-kooperatif/static/js/453.95d9d34a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a887eb2.css",
+    "static/css/main.e2885398.css",
     "static/js/main.8fe174c2.js"
   ]
 }
