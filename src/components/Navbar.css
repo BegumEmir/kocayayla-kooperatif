@@ -154,7 +154,18 @@
   .hamburger {
     display: block;
   }
+
 }
+@media (max-width: 768px) {
+  .mobile-menu .dropdown-menu {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100% !important;
+    margin-top: 8px;
+  }
+}
+
 
 /* Mobilde logo küçülsün */
 @media (max-width: 600px) {
@@ -169,5 +180,38 @@
 @media (max-width: 480px) {
   .navbar-logo {
     font-size: 13px;
+  }
+}
+
+/* Mobil menüde her satır tam genişlikte olsun */
+.mobile-menu li,
+.mobile-menu .dropdown {
+  width: 100%;
+}
+
+/* Kurumsal / Medya Odası satırları tam satırı kaplasın, ok sağda olsun */
+.mobile-menu .dropdown-toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mobile-menu {
+  background: #4a7c59;   /* Zaten nav ile aynı renk, ama garanti olsun */
+}
+
+.mobile-menu li,
+.mobile-menu .dropdown {
+  width: 100%;
+}
+
+.mobile-menu .dropdown-toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .desktop-menu .dropdown:hover .dropdown-menu {
+    display: none !important;
   }
 }
