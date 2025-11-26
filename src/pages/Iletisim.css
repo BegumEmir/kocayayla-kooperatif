@@ -1,0 +1,120 @@
+.iletisim-page h1 {
+  color: #4a7c59;
+}
+
+.iletisim-desc {
+  font-size: 15px;
+  color: #444;
+  max-width: 700px;
+  margin-bottom: 20px;
+}
+
+.success-notify {
+  background: #e8f6ec;
+  border-left: 4px solid #4a7c59;
+  padding: 10px 14px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  color: #2d4c3a;
+}
+
+.iletisim-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+/* Sol kısım */
+.iletisim-info h2 {
+  color: #4a7c59;
+  margin-bottom: 10px;
+}
+
+.iletisim-info p {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #444;
+}
+
+.info-box-green {
+  background: #e9f3ea;
+  padding: 12px 14px;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #2f4b38;
+  margin-top: 15px;
+}
+
+/* Harita kutusu */
+.harita-kutu {
+  margin-top: 20px;
+  width: 100%;
+  height: 260px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+}
+
+.harita-kutu iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* Form */
+.iletisim-form h2 {
+  color: #4a7c59;
+  margin-bottom: 10px;
+}
+
+.iletisim-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.iletisim-form label {
+  font-size: 14px;
+  color: #333;
+}
+
+.iletisim-form input,
+.iletisim-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.error-msg {
+  font-size: 12px;
+  color: #b33a3a;
+  margin-top: -5px;
+}
+
+.iletisim-form button {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #4a7c59;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.iletisim-form button:hover {
+  background: #3c6347;
+}
+
+/* Mobil uyumluluk */
+@media (max-width: 800px) {
+  .iletisim-container {
+    grid-template-columns: 1fr;
+  }
+
+  .harita-kutu {
+    height: 220px;
+  }
+}

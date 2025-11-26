@@ -1,0 +1,77 @@
+/* ============================
+       FAALİYETLER SAYFASI
+============================= */
+
+.faaliyet-page h1 {
+  color: #4a7c59;
+  margin-bottom: 10px;
+}
+
+.faaliyet-page p {
+  color: #444;
+  font-size: 15px;
+}
+
+/* Üst Açıklama */
+.faaliyet-hero {
+  margin-bottom: 20px;
+}
+
+.faaliyet-hero p {
+  max-width: 700px;
+}
+
+/* GRID */
+.faaliyet-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.faaliyet-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.faaliyet-card h2 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  color: #4a7c59;
+  font-size: 18px;
+}
+
+.faaliyet-card p {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Kapanış Mesajı */
+.faaliyet-callout {
+  background: #ffffff;
+  border-radius: 12px;
+  margin-top: 32px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.faaliyet-callout h2 {
+  margin: 0 0 10px;
+  color: #4a7c59;
+}
+
+.faaliyet-callout p {
+  margin: 0;
+  font-size: 14px;
+  color: #444;
+}
+
+/* Mobil uyumluluk */
+@media (max-width: 700px) {
+  .faaliyet-grid {
+    grid-template-columns: 1fr;
+  }
+}

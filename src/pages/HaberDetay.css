@@ -1,0 +1,186 @@
+/* Sayfa genel alanı kart ile ortalanıyor */
+.haber-detay-page {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Beyaz kart */
+.haber-detay-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 28px 28px 24px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba(0, 0, 0, 0.03);
+}
+
+/* -------- Breadcrumb -------- */
+
+.haber-breadcrumb {
+  font-size: 13px;
+  color: #777;
+  margin-bottom: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.haber-breadcrumb a {
+  color: #4a7c59;
+  text-decoration: none;
+}
+
+.haber-breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.haber-breadcrumb .aktif {
+  color: #333;
+}
+
+/* -------- Başlık alanı -------- */
+
+.haber-detay-header {
+  margin-bottom: 18px;
+}
+
+.haber-kategori-pill {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  letter-spacing: 0.03em;
+  background: #ecf4ee;
+  color: #3b5d46;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+
+.haber-detay-header h1 {
+  font-size: 26px;
+  margin: 4px 0 8px;
+  color: #223023;
+}
+
+.haber-meta-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.haber-tarih {
+  font-size: 14px;
+  color: #777;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.haber-tarih .ikon {
+  font-size: 15px;
+}
+
+/* Kopyala butonu */
+
+.copy-link-btn {
+  padding: 7px 14px;
+  font-size: 13px;
+  border-radius: 999px;
+  border: 1px solid #4a7c59;
+  background: #ffffff;
+  color: #4a7c59;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.copy-link-btn:hover {
+  background: #f3ede2;
+}
+
+/* -------- Görsel -------- */
+
+.haber-detay-image-wrapper {
+  margin: 20px 0 18px;
+}
+
+.haber-detay-img {
+  width: 100%;
+  max-width: 760px;      /* <<< GERÇEK görüntü genişliği sınırı */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+  object-fit: cover;
+}
+
+/* -------- Metin -------- */
+
+.haber-detay-body {
+  font-size: 15px;
+  color: #444;
+  line-height: 1.7;
+  margin-top: 4px;
+}
+
+.haber-detay-body p {
+  margin-bottom: 14px;
+}
+
+/* -------- Alt alan / geri link -------- */
+
+.haber-detay-footer {
+  margin-top: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #f0f0f0;
+  padding-top: 14px;
+}
+
+.haber-back-link {
+  font-size: 14px;
+  color: #4a7c59;
+  text-decoration: none;
+}
+
+.haber-back-link:hover {
+  text-decoration: underline;
+}
+
+/* -------- Mobil uyum -------- */
+
+@media (max-width: 768px) {
+  .haber-detay-card {
+    padding: 20px 18px 18px;
+    border-radius: 12px;
+  }
+
+  .haber-detay-header h1 {
+    font-size: 22px;
+  }
+
+  .haber-meta-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .copy-link-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .haber-detay-img {
+    max-width: 100%;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  }
+
+  .haber-detay-footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+}

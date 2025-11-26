@@ -1,0 +1,107 @@
+.footer {
+  background: linear-gradient(135deg, #3f6a4f, #2f5139);
+  color: #ffffff;
+  padding: 50px 0 20px;
+  margin-top: 60px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+
+/* Bölüm */
+.footer-section {
+  flex: 1;
+  min-width: 260px;
+}
+
+footer section {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 16px;
+  border-radius: 8px;
+}
+
+
+/* Başlıklar */
+.footer-title {
+  color: #f1f7f1;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.footer-subtitle {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  border-left: 4px solid #b7e1c3;
+  padding-left: 8px;
+}
+
+/* Metin */
+.footer-text,
+.footer-info {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+
+/* Linkler */
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  color: #e8f5e9;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.footer-links a:hover {
+  color: #b7e1c3;
+  padding-left: 4px;
+}
+
+/* Harita */
+.footer-map {
+  width: 100%;
+  height: 180px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+}
+
+/* Alt kısım */
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+/* Mobil */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-subtitle {
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  .footer-links a {
+    padding-left: 0;
+  }
+}
