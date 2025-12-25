@@ -19,7 +19,7 @@ export default function Duyurularimiz() {
       </p>
 
       <div className="duyurular-list">
-        {duyurular.map((d) => (
+        {duyurular.slice().reverse().map((d) => (
           <div
             key={d.id}
             className={`duyuru-box ${openId === d.id ? "open" : ""}`}

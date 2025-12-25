@@ -9,9 +9,7 @@ export default function Faaliyetler() {
       <section className="faaliyet-hero">
         <h1>Faaliyetlerimiz</h1>
         <p>
-          Kooperatif olarak üreticilerimizi desteklemek, tarımda verimi artırmak,
-          pazarlama süreçlerini güçlendirmek ve köy ekonomisini geliştirmek adına
-          birçok farklı alanda faaliyet yürütüyoruz.
+          Kooperatifimiz, üyelerimizin üretim süreçlerini kolaylaştırmak ve maliyetlerini azaltmak amacıyla tarım ve hayvancılığın farklı alanlarında hizmet vermektedir. Temel hedefimiz; ortaklarımızın ihtiyaçlarını zamanında, güvenilir ve uygun koşullarla karşılamaktır.
         </p>
       </section>
 
@@ -19,48 +17,42 @@ export default function Faaliyetler() {
       <section className="faaliyet-grid">
         
         <div className="faaliyet-card">
-          <h2>Ortak Üretim Planlaması</h2>
+          <h2>🥛 Süt Toplama ve Soğutma Hizmeti</h2>
           <p>
-            Üreticilerimizin sezonluk üretim planlarını koordine ederek ürün
-            sürekliliğini ve kalite standardını sağlıyoruz.
+            Kooperatifimiz, üyelerimizden düzenli olarak süt toplamakta ve modern süt tanklarında hijyenik koşullarda soğutarak muhafaza etmektedir. Soğutulan sütler, kalite standartlarına uygun şekilde satışa sunularak üyelerimizin emeğinin değer kazanması sağlanmaktadır.
           </p>
         </div>
 
         <div className="faaliyet-card">
-          <h2>Eğitim ve Bilgilendirme</h2>
+          <h2>🌾 Yem Temini ve Satışı</h2>
           <p>
-            Tarımsal üretimde modern yöntemler, organik tarım uygulamaları,
-            verimlilik ve kooperatif bilinci üzerine eğitimler düzenliyoruz.
+            Hayvancılıkla uğraşan üyelerimizin yem ihtiyacını karşılamak amacıyla kooperatifimiz tarafından toplu yem alımı yapılmaktadır. Temin edilen yemler, uygun fiyatlarla üyelerimize sunularak üretim maliyetlerinin düşürülmesine katkı sağlanmaktadır.
           </p>
         </div>
 
         <div className="faaliyet-card">
-          <h2>Ortak Girdi Temini</h2>
+          <h2>🌾 Un Temini</h2>
           <p>
-            Tohum, gübre, yem, ilaç ve diğer tarım girdilerini toplu
-            alımlarla temin ederek maliyet avantajı oluşturuyoruz.
+            Kooperatifimiz, üyelerimizin un ihtiyacını karşılamak için güvenilir tedarikçilerden un temin etmekte ve üyelerine satışını gerçekleştirmektedir. Böylece temel gıda ihtiyaçlarının kooperatif güvencesiyle karşılanması amaçlanmaktadır.
           </p>
         </div>
 
         <div className="faaliyet-card">
-          <h2>Pazarlama ve Satış</h2>
+          <h2>⚙️ Değirmen Hizmeti</h2>
           <p>
-            Ürünlerimizin yerel ve bölgesel pazarlarda daha geniş bir kitleye
-            ulaşmasını sağlayacak satış, tanıtım ve markalaşma çalışmaları
-            yürütüyoruz.
+            Kooperatif bünyesinde bulunan değirmende, üyelerimiz arpalarını getirerek arpa ezmesi haline dönüştürebilmektedir. Bu hizmet sayesinde hem hayvan beslemede hem de üretimde ihtiyaç duyulan ürünler pratik bir şekilde elde edilmektedir.
           </p>
         </div>
 
         <div className="faaliyet-card">
-          <h2>Ürün İşleme ve Depolama</h2>
+          <h2>🚜 Tarımsal Makine ve Kepçe Hizmetleri</h2>
           <p>
-            Ürünlerin saklama süresini uzatmak ve kaliteyi korumak için
-            depolama çözümleri ve işleme destekleri sağlıyoruz.
+            Kooperatifimizin sahip olduğu traktör, kepçe ve beko loder ile üyelerimizin tarımsal faaliyetlerinde ihtiyaç duydukları makine hizmetleri karşılanmaktadır. Arazi düzenleme, yükleme ve benzeri işler kooperatif desteğiyle gerçekleştirilmektedir.
           </p>
         </div>
 
         <div className="faaliyet-card">
-          <h2>Kooperatif Dayanışması</h2>
+          <h2>🌾 Balya Bağlama Hizmeti</h2>
           <p>
             Üreticiler arası dayanışmayı teşvik ederek tecrübe paylaşımını
             artırıyoruz ve kırsal kalkınma bilincini güçlendiriyoruz.
@@ -73,9 +65,7 @@ export default function Faaliyetler() {
       <section className="faaliyet-callout">
         <h2>Birlikte Daha Güçlüyüz</h2>
         <p>
-          Kooperatif olarak köyümüzün üretim gücünü artırmak ve sürdürülebilir bir
-          gelecek oluşturmak için faaliyet alanlarımızı her yıl geliştiriyor ve
-          büyütüyoruz.
+          Kooperatifimiz, sahip olduğu imkanlar ve sunduğu hizmetlerle üyelerimizin yanında olmaya, üretimi desteklemeye ve kırsal kalkınmaya katkı sağlamaya devam etmektedir.
         </p>
       </section>
     </div>

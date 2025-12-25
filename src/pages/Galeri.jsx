@@ -6,7 +6,12 @@ export default function Galeri() {
 
   const images = [
     process.env.PUBLIC_URL + "/galeri/1.jpeg",
-    process.env.PUBLIC_URL + "/galeri/2.jpeg"
+    process.env.PUBLIC_URL + "/galeri/2.jpeg",
+    process.env.PUBLIC_URL + "/galeri/3.jpeg",
+    process.env.PUBLIC_URL + "/galeri/4.jpeg",
+    process.env.PUBLIC_URL + "/galeri/5.jpeg",
+    process.env.PUBLIC_URL + "/galeri/6.jpeg",
+    process.env.PUBLIC_URL + "/galeri/7.jpeg"
   ];
 
   return (

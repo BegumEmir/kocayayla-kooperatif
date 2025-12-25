@@ -42,6 +42,8 @@ export default function Navbar() {
             </ul>
           </li>
 
+          <li><Link to="/faaliyetler">Faaliyetler</Link></li>
+
 
           <li className="dropdown">
             <button className="dropdown-toggle">Medya Odası ▾</button>
@@ -71,6 +73,12 @@ export default function Navbar() {
             <li><Link to="/kurumsal/denetim-kurulu" onClick={closeAll}>Denetim Kurulu</Link></li>
             <li><Link to="/kurumsal/ortaklarimiz" onClick={closeAll}>Ortaklarımız</Link></li>
           </ul>
+        </li>
+
+        <li>
+          <Link to="/faaliyetler" onClick={closeAll}>
+            Faaliyetler
+          </Link>
         </li>
 
 

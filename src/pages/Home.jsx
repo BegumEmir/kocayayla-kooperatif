@@ -4,12 +4,22 @@ import "./Home.css";
 import "./Duyurular.css";
 import haberler from "../data/haberler";
 import duyurular from "../data/duyurular";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from "swiper/modules";
+
+import "swiper/css";
+import "swiper/css/navigation";
+
 
 export default function Home() {
-  const sonDuyurular = duyurular.slice(0, 2);
-  const sonHaberler = haberler.slice(0, 2);
+const base = process.env.PUBLIC_URL;  
 
-  const [openId, setOpenId] = useState(null);
+  const sonDuyurular = duyurular.slice().reverse().slice(0, 3);
+  const sonHaberler = haberler.slice().reverse().slice(0, 3);
+
+  const [openId, setOpenId] = useState(
+    sonDuyurular.length > 0 ? sonDuyurular[0].id : null
+  );
 
   const toggle = (id) => {
     setOpenId(openId === id ? null : id);
@@ -89,6 +99,44 @@ export default function Home() {
           Tüm duyurular →
         </Link>
       </div>
+
+      {/* GALERİ */}
+      <section className="home-gallery">
+        <div className="home-gallery-header">
+          <h2>Galeriden Kareler</h2>
+          <Link to="/medya/galeri" className="gallery-link">
+            Tüm galeriyi gör →
+          </Link>
+        </div>
+
+        <Swiper
+          modules={[Navigation]}
+          navigation
+          spaceBetween={20}
+          slidesPerView={1}
+          breakpoints={{
+            640: { slidesPerView: 2 },
+            1024: { slidesPerView: 3 },
+          }}
+        >
+          {[
+            `${base}/galeri/1.jpeg`,
+            `${base}/galeri/2.jpeg`,
+            `${base}/galeri/3.jpeg`,
+            `${base}/galeri/4.jpeg`,
+            `${base}/galeri/5.jpeg`,
+            `${base}/galeri/6.jpeg`,
+            `${base}/galeri/7.jpeg`,
+          ].map((src, i) => (
+            <SwiperSlide key={i}>
+              <div className="gallery-slide">
+                <img src={src} alt="Kooperatif Galeri" />
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </section>
+
 
       {/* HABERLER */}
       <section className="home-section">

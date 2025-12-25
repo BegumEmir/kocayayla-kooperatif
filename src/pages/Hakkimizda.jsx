@@ -1,4 +1,6 @@
 import "./Hakkimizda.css";
+import { Link } from "react-router-dom";
+
 
 export default function Hakkimizda() {
   return (
@@ -6,23 +8,26 @@ export default function Hakkimizda() {
       {/* Üst kısım: Başlık + kısa özet */}
       <section className="hakkimizda-hero">
         <div className="hakkimizda-hero-text">
-          <h1>Hakkımızda</h1>
+          <h1>Kurumsal Kimliğimiz</h1>
+          <h2>Hakkımızda</h2>
           <p>
-            S.S. Kocayayla Köyü Tarımsal Kalkınma Kooperatifi olarak,
-            köyümüzün doğal üretim gücünü bir araya getirerek kırsal kalkınmayı,
-            üreticilerimizin refahını ve sürdürülebilir tarımı destekliyoruz.
+            S.S. Kocayayla Köyü Tarımsal Kalkınma Kooperatifi, Kocayayla Köyü’nde tarım ve hayvancılıkla uğraşan üreticilerin ekonomik ve sosyal olarak güçlenmesini sağlamak amacıyla kurulmuştur. Kooperatifimiz, ortaklarımızın üretim faaliyetlerini desteklemek, maliyetlerini azaltmak ve sürdürülebilir bir üretim yapısı oluşturmak hedefiyle faaliyetlerini sürdürmektedir.
           </p>
           <p>
-            Kooperatifimiz; toprağa, üretime ve dayanışma kültürüne inanan
-            üreticilerin bir araya gelmesiyle kurulmuş; şeffaflık, güven ve
-            birliktelik ilkeleriyle faaliyet göstermektedir.
+            Kuruluşumuzdan bu yana, dayanışma ve ortaklık anlayışıyla hareket ederek üyelerimizin ihtiyaçlarını karşılamaya yönelik hizmetler sunmaktayız. Süt toplama ve soğutma, yem ve un temini, tarımsal makine hizmetleri gibi alanlarda sağladığımız desteklerle üreticilerimizin yanında olmaya devam ediyoruz.
+          </p>
+          <p>
+            Kooperatifimiz, yerel üretimi destekleyen, güvenilir ve şeffaf bir yönetim anlayışını benimsemektedir. Ortaklarımızın emeğinin değer bulması, üretimin sürdürülebilir hale gelmesi ve kırsal kalkınmaya katkı sağlanması temel önceliklerimiz arasındadır.
+          </p>
+          <p>
+            Bugün olduğu gibi gelecekte de, üyelerimizle birlikte büyüyen, gelişen ve bölge ekonomisine katkı sunan bir kooperatif olma hedefiyle çalışmalarımızı sürdürmekteyiz.
           </p>
         </div>
 
         {/* Görsel alan – şimdilik placeholder, sonra foto koyarsın */}
         <div className="hakkimizda-hero-image">
           <div className="hakkimizda-hero-placeholder">
-            <img src={process.env.PUBLIC_URL + "/images/koop1.jpeg"} alt="Kooperatif Fotoğrafı" />
+            <img src={process.env.PUBLIC_URL + "/images/haber4.jpeg"} alt="Kooperatif Fotoğrafı" />
           </div>
         </div>
       </section>
@@ -139,6 +144,9 @@ export default function Hakkimizda() {
               hedefliyoruz.
             </p>
           </div>
+          <Link to="/faaliyetler" className="see-more">
+            Tüm faaliyetlerimizi inceleyin →
+          </Link>
         </div>
       </section>
 

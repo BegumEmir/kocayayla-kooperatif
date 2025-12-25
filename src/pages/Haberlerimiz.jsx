@@ -10,7 +10,7 @@ export default function Haberlerimiz() {
       <h1>Haberlerimiz</h1>
 
       <div className="haberler-grid">
-        {haberler.map((h) => (
+        {haberler.slice().reverse().map((h) => (
           <div className="haber-card" key={h.id}>
             <img src={h.foto} alt={h.baslik} className="haber-img" />
 

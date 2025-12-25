@@ -1,236 +1,246 @@
 /* ============================
-     HAKKIMIZDA SAYFASI
+   HAKKIMIZDA SAYFASI – FINAL
 ============================= */
 
-/* Sayfa genel başlığı */
-.hakkimizda-page h1 {
-  color: #4a7c59;
-  margin-bottom: 12px;
-}
-
-/* Üst hero alanı */
-.hakkimizda-hero {
+.hakkimizda-page {
   display: flex;
-  gap: 32px;
-  align-items: stretch;
-  margin-bottom: 32px;
+  flex-direction: column;
+  gap: 80px;
 }
 
-.hakkimizda-hero-text {
-  flex: 1.2;
+/* ---------------- HERO ---------------- */
+.hakkimizda-hero {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 48px;
+  align-items: center;
+}
+
+.hakkimizda-hero-text h1 {
+  font-size: 36px;
+  margin-bottom: 36px;
+  color: #2f3d2f;
+}
+
+.hakkimizda-hero-text h2 {
+  font-size: 28px;
+  margin-bottom: 12px;
+  color: #2f3d2f;
 }
 
 .hakkimizda-hero-text p {
-  font-size: 15px;
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 14px;
   color: #444;
-  margin-bottom: 10px;
 }
 
-.hakkimizda-hero-image {
-  flex: 1;
-  display: flex;
-  align-items: stretch;
-}
-
-.hakkimizda-hero-placeholder {
-  background: #dfe9dd;
-  border-radius: 12px;
-  padding: 18px;
-  font-size: 14px;
-  color: #2f3d2f;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
-.hakkimizda-image {
-  width: 100%;
-  height: 280px;
-  background: #f0f4f0;
-  border-radius: 14px;
-  box-shadow: 0 4px 14px rgba(0,0,0,0.08);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;   /* taşma yok */
-}
-
-.hakkimizda-image img {
+.hakkimizda-hero-image img {
   width: 100%;
   height: 100%;
-  object-fit: cover;  /* taşırmadan mükemmel kırpma */
-  border-radius: 14px;
+  max-height: 420px;
+  border-radius: 16px;
+  object-fit: cover;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.12);
 }
 
 
-/* Misyon & Vizyon */
+
+
+/* ---------------- MISYON / VIZYON ---------------- */
 .hv-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 20px;
-  margin-bottom: 32px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
 }
 
 .hv-card {
-  background: #ffffff;
-  border-radius: 12px;
-  padding: 18px 20px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  background: #f6f8f5;
+  padding: 32px;
+  border-radius: 16px;
 }
 
 .hv-card h2 {
-  margin-top: 0;
-  margin-bottom: 8px;
-  color: #4a7c59;
+  font-size: 22px;
+  margin-bottom: 12px;
+  color: #2f3d2f;
 }
 
 .hv-card p {
-  margin: 0;
-  font-size: 14px;
-  color: #444;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #333;
 }
 
-/* Değerler alanı */
-.values-section {
-  margin-bottom: 32px;
-}
-
+/* ---------------- DEGERLER ---------------- */
 .values-section h2 {
-  color: #4a7c59;
-  margin-bottom: 8px;
+  font-size: 28px;
+  margin-bottom: 12px;
+  color: #2f3d2f;
 }
 
 .values-section p {
-  font-size: 14px;
+  margin-bottom: 20px;
   color: #555;
-  margin-bottom: 12px;
 }
 
 .values-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 12px;
 }
 
 .values-tags span {
-  background: #ffffff;
+  background: #4a7c59;
+  color: #fff;
+  padding: 8px 16px;
   border-radius: 999px;
-  padding: 6px 14px;
-  font-size: 13px;
-  color: #4a7c59;
-  border: 1px solid #cfdcce;
+  font-size: 14px;
 }
 
-/* Timeline */
-.timeline-section {
-  margin-bottom: 32px;
-}
-
+/* ---------------- TIMELINE ---------------- */
 .timeline-section h2 {
-  color: #4a7c59;
-  margin-bottom: 14px;
+  font-size: 28px;
+  margin-bottom: 32px;
+  color: #2f3d2f;
 }
 
 .timeline {
-  border-left: 2px solid #cfdcce;
-  margin-left: 10px;
-  padding-left: 18px;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
+  position: relative;
+  padding-left: 30px;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #4a7c59;
 }
 
 .timeline-item {
   position: relative;
+  margin-bottom: 40px;
 }
 
 .timeline-dot {
   position: absolute;
-  left: -20px;
-  top: 4px;
-  width: 10px;
-  height: 10px;
-  border-radius: 999px;
+  left: -2px;
+  top: 5px;
+  width: 14px;
+  height: 14px;
   background: #4a7c59;
+  border-radius: 50%;
 }
 
 .timeline-content h3 {
-  margin: 0 0 4px;
-  font-size: 15px;
+  font-size: 18px;
+  margin-bottom: 6px;
   color: #333;
+  padding-left: 15px;
 }
 
 .timeline-content p {
-  margin: 0;
-  font-size: 13px;
-  color: #555;
+  color: #444;
+  line-height: 1.6;
 }
 
-/* Faaliyet alanları */
-.activities-section {
-  margin-bottom: 32px;
-}
-
+/* ---------------- FAALIYET ALANLARI ---------------- */
 .activities-section h2 {
-  color: #4a7c59;
-  margin-bottom: 14px;
+  font-size: 28px;
+  margin-bottom: 32px;
+  color: #2f3d2f;
 }
 
 .activities-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 18px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
 }
 
 .activity-card {
   background: #ffffff;
-  border-radius: 10px;
-  padding: 16px 18px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  border: 1px solid #eee;
+  padding: 24px;
+  border-radius: 14px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.activity-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
 }
 
 .activity-card h3 {
-  margin-top: 0;
-  margin-bottom: 6px;
-  font-size: 15px;
+  font-size: 18px;
+  margin-bottom: 10px;
   color: #4a7c59;
 }
 
 .activity-card p {
-  margin: 0;
-  font-size: 13px;
+  font-size: 15px;
+  line-height: 1.6;
   color: #555;
 }
 
-/* Kapanış kutusu */
+/* ---------------- CALLOUT ---------------- */
 .callout-section {
-  background: #ffffff;
-  border-radius: 12px;
-  padding: 18px 20px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  background: #4a7c59;
+  color: #fff;
+  padding: 60px 40px;
+  border-radius: 20px;
+  text-align: center;
 }
 
 .callout-section h2 {
-  margin-top: 0;
-  margin-bottom: 8px;
-  color: #4a7c59;
+  font-size: 32px;
+  margin-bottom: 16px;
 }
 
 .callout-section p {
-  margin: 0;
-  font-size: 14px;
-  color: #444;
+  font-size: 16px;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.7;
 }
 
-/* Responsive */
-@media (max-width: 900px) {
+.hakkimizda-page .callout-section h2 {
+  color: #ffffff;
+}
+
+/* ---------------- RESPONSIVE ---------------- */
+@media (max-width: 1024px) {
+  .activities-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
   .hakkimizda-hero {
-    flex-direction: column;
+    grid-template-columns: 1fr;
   }
 
-  .activities-grid,
   .hv-grid {
     grid-template-columns: 1fr;
+  }
+
+  .activities-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hakkimizda-hero-text h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .callout-section {
+    padding: 40px 20px;
+  }
+
+  .callout-section h2 {
+    font-size: 26px;
   }
 }
