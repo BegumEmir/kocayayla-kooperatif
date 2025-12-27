@@ -1,0 +1,61 @@
+.yonetim-page h1 {
+  color: #4a7c59;
+  margin-bottom: 30px;
+}
+
+.yonetim-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+}
+
+.yonetim-desc {
+  max-width: 700px;
+  margin-bottom: 32px;
+  font-size: 15px;
+  color: #555;
+}
+
+.yonetim-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.yonetim-img {
+  width: 100%;
+  height: 220px;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 16px;
+  background: #f2f2f2;
+}
+
+.yonetim-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.yonetim-card h3 {
+  margin: 0 0 4px;
+  font-size: 17px;
+  color: #2f3d2f;
+}
+
+.yonetim-card p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.yonetim-img.icon-only {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+  color: #4a7c59;
+  background: #f4f7f4;
+}

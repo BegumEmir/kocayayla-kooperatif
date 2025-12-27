@@ -5,13 +5,26 @@ export default function Galeri() {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const images = [
-    process.env.PUBLIC_URL + "/galeri/1.jpeg",
-    process.env.PUBLIC_URL + "/galeri/2.jpeg",
-    process.env.PUBLIC_URL + "/galeri/3.jpeg",
-    process.env.PUBLIC_URL + "/galeri/4.jpeg",
-    process.env.PUBLIC_URL + "/galeri/5.jpeg",
-    process.env.PUBLIC_URL + "/galeri/6.jpeg",
-    process.env.PUBLIC_URL + "/galeri/7.jpeg"
+    process.env.PUBLIC_URL + "/galeri/ekibimiz.jpeg",
+    process.env.PUBLIC_URL + "/galeri/süt-toplama-merkezi-ekip-fotosu.jpeg",
+    process.env.PUBLIC_URL + "/galeri/yönetim-ekibi.jpeg",
+    process.env.PUBLIC_URL + "/galeri/yem-ezme-tesisi-ekip-fotosu.jpeg",
+    process.env.PUBLIC_URL + "/galeri/kepçe.jpeg",
+    process.env.PUBLIC_URL + "/galeri/değirmen.jpeg",
+    process.env.PUBLIC_URL + "/galeri/süt-toplama-arabası.jpeg",
+    process.env.PUBLIC_URL + "/galeri/çalışan-kepçe.jpeg",
+    process.env.PUBLIC_URL + "/galeri/cami-yukardan.jpeg",
+    process.env.PUBLIC_URL + "/galeri/camii.png",
+    process.env.PUBLIC_URL + "/galeri/haber-belge.jpeg",
+    process.env.PUBLIC_URL + "/galeri/il-tarım-toplu-foto-belge.jpeg",
+    process.env.PUBLIC_URL + "/galeri/il-tarım-toplu-foto-yem-ezme-tesisi.jpeg",
+    process.env.PUBLIC_URL + "/galeri/il-tarım-toplu-süt-toplama-merkezi.jpeg",
+    process.env.PUBLIC_URL + "/galeri/manzara-ağaç.jpeg",
+    process.env.PUBLIC_URL + "/galeri/manzara-dikey.jpeg",
+    process.env.PUBLIC_URL + "/galeri/manzara.jpeg",
+    process.env.PUBLIC_URL + "/galeri/süt-soğutma-deposu-il-tarım.jpeg",
+    process.env.PUBLIC_URL + "/galeri/süt-toplama-arabası.jpeg",
+    process.env.PUBLIC_URL + "/galeri/yatay-manzara.jpeg"
   ];
 
   return (

@@ -11,23 +11,26 @@ export default function Hakkimizda() {
           <h1>Kurumsal Kimliğimiz</h1>
           <h2>Hakkımızda</h2>
           <p>
-            S.S. Kocayayla Köyü Tarımsal Kalkınma Kooperatifi, Kocayayla Köyü’nde tarım ve hayvancılıkla uğraşan üreticilerin ekonomik ve sosyal olarak güçlenmesini sağlamak amacıyla kurulmuştur. Kooperatifimiz, ortaklarımızın üretim faaliyetlerini desteklemek, maliyetlerini azaltmak ve sürdürülebilir bir üretim yapısı oluşturmak hedefiyle faaliyetlerini sürdürmektedir.
+          S.S. Kocayayla Köyü Tarımsal Kalkınma Kooperatifi, Kocayayla Köyü’nde tarım ve hayvancılıkla uğraşan üreticilerin ekonomik ve sosyal olarak güçlenmesini sağlamak amacıyla kurulmuştur. Kooperatifimiz, ortaklarımızın üretim faaliyetlerini desteklemek, maliyetlerini azaltmak ve sürdürülebilir bir üretim yapısı oluşturmak hedefiyle faaliyetlerini sürdürmektedir.
           </p>
           <p>
-            Kuruluşumuzdan bu yana, dayanışma ve ortaklık anlayışıyla hareket ederek üyelerimizin ihtiyaçlarını karşılamaya yönelik hizmetler sunmaktayız. Süt toplama ve soğutma, yem ve un temini, tarımsal makine hizmetleri gibi alanlarda sağladığımız desteklerle üreticilerimizin yanında olmaya devam ediyoruz.
+          Kooperatifimiz, 2004 yılında 7 üreticimizin bir araya gelmesiyle kurulmuştur. Kuruluşumuzda emeği geçen kurucu ortaklarımız; Hüsrev Damar, Hasan Ünlü, Osman Özmen, Reyhan Uysal, İbrahim Öz, Yakup Alkan ve Metin Kızıltepe’dir. 
+          </p> 
+          <p>
+            Kuruluşumuzdan bu yana, dayanışma ve ortaklık anlayışıyla hareket ederek üyelerimizin ihtiyaçlarını karşılamaya yönelik hizmetler sunmaktayız. Süt toplama ve soğutma, yem ve un temini, tarımsal makine hizmetleri gibi alanlarda sağladığımız desteklerle üreticilerimizin yanında olmaya devam ediyoruz. 
           </p>
           <p>
-            Kooperatifimiz, yerel üretimi destekleyen, güvenilir ve şeffaf bir yönetim anlayışını benimsemektedir. Ortaklarımızın emeğinin değer bulması, üretimin sürdürülebilir hale gelmesi ve kırsal kalkınmaya katkı sağlanması temel önceliklerimiz arasındadır.
-          </p>
+            Kooperatifimizde 2004 yılından bu yana görev yapan başkanlarımız sırasıyla Hasan Ünlü, Metin Kızıltepe, Vayit Tüzgen (Merhum), Osman Deniz, Ömer Zözer ve İsa Özmen olmuştur. Bugüne kadar görev alan tüm başkanlarımıza ve yöneticilerimize kooperatifimize sundukları katkılardan dolayı teşekkür ediyor, merhum başkanımızı rahmetle anıyoruz.
+          </p> 
           <p>
-            Bugün olduğu gibi gelecekte de, üyelerimizle birlikte büyüyen, gelişen ve bölge ekonomisine katkı sunan bir kooperatif olma hedefiyle çalışmalarımızı sürdürmekteyiz.
+            Kooperatifimiz, yerel üretimi destekleyen, güvenilir ve şeffaf bir yönetim anlayışını benimsemektedir. Ortaklarımızın emeğinin değer bulması, üretimin sürdürülebilir hale gelmesi ve kırsal kalkınmaya katkı sağlanması temel önceliklerimiz arasındadır. Bugün olduğu gibi gelecekte de, üyelerimizle birlikte büyüyen, gelişen ve bölge ekonomisine katkı sunan bir kooperatif olma hedefiyle çalışmalarımızı sürdürmekteyiz.
           </p>
         </div>
 
         {/* Görsel alan – şimdilik placeholder, sonra foto koyarsın */}
         <div className="hakkimizda-hero-image">
           <div className="hakkimizda-hero-placeholder">
-            <img src={process.env.PUBLIC_URL + "/images/haber4.jpeg"} alt="Kooperatif Fotoğrafı" />
+            <img src={process.env.PUBLIC_URL + "/galeri/süt-toplama-merkezi-ekip-fotosu.jpeg"} alt="Kooperatif Fotoğrafı" />
           </div>
         </div>
       </section>
@@ -130,16 +133,9 @@ export default function Hakkimizda() {
             </p>
           </div>
           <div className="activity-card">
-            <h3>Pazarlama ve Tanıtım</h3>
-            <p>
-              Yerel ve bölgesel pazarlarda kooperatif ürünlerimizin bilinirliğini
-              artırmak için markalaşma ve tanıtım faaliyetleri yapıyoruz.
-            </p>
-          </div>
-          <div className="activity-card">
             <h3>Girdi Temini ve Destek</h3>
             <p>
-              Tohum, gübre ve ekipman gibi temel girdilerin temininde ortak
+              Yem,yem katkı maddeleri, un, pancar küspesi, arpa fleke, mısır fleke ve un gibi temel girdilerin temininde ortak
               hareket ederek üreticilerimize maliyet avantajı sağlamayı
               hedefliyoruz.
             </p>

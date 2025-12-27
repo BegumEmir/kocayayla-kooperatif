@@ -30,7 +30,7 @@ const base = process.env.PUBLIC_URL;
       {/* HERO */}
       <div className="home-hero">
         <div className="home-hero-left">
-          <img src={process.env.PUBLIC_URL + "/hero.png"} alt="Kocayayla köyü manzarası" />
+          <img src={process.env.PUBLIC_URL + "/galeri/yatay-manzara.jpeg"} alt="Kocayayla köyü manzarası" />
         </div>
 
         <div className="home-hero-right">
@@ -120,13 +120,13 @@ const base = process.env.PUBLIC_URL;
           }}
         >
           {[
-            `${base}/galeri/1.jpeg`,
-            `${base}/galeri/2.jpeg`,
-            `${base}/galeri/3.jpeg`,
-            `${base}/galeri/4.jpeg`,
-            `${base}/galeri/5.jpeg`,
-            `${base}/galeri/6.jpeg`,
-            `${base}/galeri/7.jpeg`,
+            `${base}/galeri/ekibimiz.jpeg`,
+            `${base}/galeri/süt-toplama-merkezi-ekip-fotosu.jpeg`,
+            `${base}/galeri/yönetim-ekibi.jpeg`,
+            `${base}/galeri/yem-ezme-tesisi-ekip-fotosu.jpeg`,
+            `${base}/galeri/kepçe.jpeg`,
+            `${base}/galeri/değirmen.jpeg`,
+            `${base}/galeri/süt-toplama-arabası.jpeg`,
           ].map((src, i) => (
             <SwiperSlide key={i}>
               <div className="gallery-slide">

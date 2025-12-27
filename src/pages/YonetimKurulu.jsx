@@ -1,28 +1,54 @@
-import "./Kurul.css";
+import "./YonetimKurulu.css";
 
 export default function YonetimKurulu() {
-  const yonetim = [
-    { ad: "Ahmet Demir", gorev: "Yönetim Kurulu Başkanı" },
-    { ad: "Mehmet Arslan", gorev: "Başkan Yardımcısı" },
-    { ad: "Ayşe Yıldız", gorev: "Üye" },
-    { ad: "Fatma Kaya", gorev: "Üye" },
-    { ad: "Mustafa Çelik", gorev: "Üye" },
-  ];
-
   return (
-    <div className="page kurul-page">
+    <div className="page yonetim-page">
       <h1>Yönetim Kurulu</h1>
-      <p className="kurul-desc">
-        Kooperatifimizin yönetim kurulu, köyümüzün kalkınma hedefleri doğrultusunda seçilmiş temsilcilerden oluşmaktadır.
+
+      <p className="yonetim-desc">
+        Yönetim Kurulumuz, kooperatifimizin amaçları doğrultusunda faaliyetlerin
+        planlanması, yürütülmesi ve geliştirilmesinden sorumludur. Ortaklarımızın
+        menfaatlerini gözeterek şeffaf, katılımcı ve sürdürülebilir bir yönetim
+        anlayışıyla görev yapmaktadır.
       </p>
 
-      <div className="kurul-grid">
-        {yonetim.map((kisi, i) => (
-          <div className="kurul-card" key={i}>
-            <span className="kurul-ad">{kisi.ad}</span>
-            <span className="kurul-gorev">{kisi.gorev}</span>
+
+      <div className="yonetim-grid">
+
+        <div className="yonetim-card">
+          <div className="yonetim-img">
+            <img
+              src={process.env.PUBLIC_URL + "/galeri/başkan.jpeg"}
+              alt="İsa Özmen"
+            />
           </div>
-        ))}
+          <h3>İsa Özmen</h3>
+          <p>Yönetim Kurulu Başkanı</p>
+        </div>
+
+        <div className="yonetim-card">
+          <div className="yonetim-img">
+            <img
+              src={process.env.PUBLIC_URL + "/galeri/başkan-yardımcısı.jpeg"}
+              alt="Başkan Yardımcısı"
+            />
+          </div>
+          <h3>Ad Soyad</h3>
+          <p>Başkan Yardımcısı</p>
+        </div>
+
+        <div className="yonetim-card">
+          {/*<div className="yonetim-img icon-only">👤</div>*/}
+          <div className="yonetim-img">
+            <img
+              src={process.env.PUBLIC_URL + "/galeri/sayman.jpeg"}
+              alt="Sayman"
+            />
+          </div>
+          <h3>Ad Soyad</h3>
+          <p>Sayman</p>
+        </div>
+
       </div>
     </div>
   );

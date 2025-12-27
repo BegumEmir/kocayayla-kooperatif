@@ -18,7 +18,7 @@ export default function Footer() {
           </p>
 
           <p className="footer-info">
-            ☎ <strong>Telefon:</strong> 0 (532) 000 00 00
+            ☎ <strong>Telefon:</strong> 0 (554) 495 74 86
           </p>
 
           <p className="footer-info">

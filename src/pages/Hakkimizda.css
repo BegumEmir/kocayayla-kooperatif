@@ -1,5 +1,5 @@
 /* ============================
-   HAKKIMIZDA SAYFASI – FINAL
+HAKKIMIZDA SAYFASI – FINAL
 ============================= */
 
 .hakkimizda-page {
@@ -156,9 +156,11 @@
 
 .activities-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 24px;
+  margin-bottom: 24px;
 }
+
 
 .activity-card {
   background: #ffffff;
@@ -183,6 +185,18 @@
   font-size: 15px;
   line-height: 1.6;
   color: #555;
+}
+
+.see-more {
+  display: inline-block;
+  margin-top: 8px;
+  font-weight: 500;
+  color: #4a7c59;
+  text-decoration: none;
+}
+
+.see-more:hover {
+  text-decoration: underline;
 }
 
 /* ---------------- CALLOUT ---------------- */

@@ -68,7 +68,7 @@ export default function Iletisim() {
           <h2>İletişim Bilgileri</h2>
 
           <p><strong>Adres:</strong><br /> Kocayayla Köyü, Çanakkale</p>
-          <p><strong>Telefon:</strong><br /> 0 (000) 000 00 00</p>
+          <p><strong>Telefon:</strong><br /> 0 (554) 495 74 86</p>
           <p><strong>E-posta:</strong><br /> info@kocayaylakoop.org</p>
 
           <div className="info-box-green">
@@ -86,7 +86,9 @@ export default function Iletisim() {
         </div>
 
         {/* Form */}
+        {/*
         <div className="iletisim-form">
+          
           <h2>Bize Yazın</h2>
 
           <form onSubmit={handleSubmit}>
@@ -133,8 +135,9 @@ export default function Iletisim() {
 
             <button type="submit">Gönder</button>
           </form>
+          
         </div>
-
+        */}
       </div>
     </div>
   );
