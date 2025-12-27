@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/kocayayla-kooperatif/static/css/main.3f714a09.css",
-    "main.js": "/kocayayla-kooperatif/static/js/main.eda8f7e6.js",
+    "main.css": "/kocayayla-kooperatif/static/css/main.4119c0ff.css",
+    "main.js": "/kocayayla-kooperatif/static/js/main.9591e5dc.js",
     "static/js/453.95d9d34a.chunk.js": "/kocayayla-kooperatif/static/js/453.95d9d34a.chunk.js",
     "index.html": "/kocayayla-kooperatif/index.html",
-    "main.3f714a09.css.map": "/kocayayla-kooperatif/static/css/main.3f714a09.css.map",
-    "main.eda8f7e6.js.map": "/kocayayla-kooperatif/static/js/main.eda8f7e6.js.map",
+    "main.4119c0ff.css.map": "/kocayayla-kooperatif/static/css/main.4119c0ff.css.map",
+    "main.9591e5dc.js.map": "/kocayayla-kooperatif/static/js/main.9591e5dc.js.map",
     "453.95d9d34a.chunk.js.map": "/kocayayla-kooperatif/static/js/453.95d9d34a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f714a09.css",
-    "static/js/main.eda8f7e6.js"
+    "static/css/main.4119c0ff.css",
+    "static/js/main.9591e5dc.js"
   ]
 }
