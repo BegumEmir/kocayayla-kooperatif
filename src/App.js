@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 
 import Home from "./pages/Home";
@@ -20,7 +20,7 @@ import "./App.css";
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    
       <div className="app-container">
         <Navbar />
 
@@ -52,7 +52,7 @@ function App() {
 
         <Footer />
       </div>
-    </Router>
+    
   );
 }
 
