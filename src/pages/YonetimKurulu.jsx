@@ -18,7 +18,7 @@ export default function YonetimKurulu() {
         <div className="yonetim-card">
           <div className="yonetim-img">
             <img
-              src={process.env.PUBLIC_URL + "/galeri/başkan.jpeg"}
+              src={process.env.PUBLIC_URL + "/galeri/baskan.jpeg"}
               alt="İsa Özmen"
             />
           </div>
@@ -33,7 +33,7 @@ export default function YonetimKurulu() {
               alt="Başkan Yardımcısı"
             />
           </div>
-          <h3>Ad Soyad</h3>
+          <h3>Mehmet Ali Bayırdelen</h3>
           <p>Başkan Yardımcısı</p>
         </div>
 
@@ -45,8 +45,8 @@ export default function YonetimKurulu() {
               alt="Sayman"
             />
           </div>
-          <h3>Ad Soyad</h3>
-          <p>Sayman</p>
+          <h3>İsmail Tüzgen</h3>
+          <p>Muhasip Üye</p>
         </div>
 
       </div>

@@ -22,7 +22,7 @@ export default function Footer() {
           </p>
 
           <p className="footer-info">
-            ✉ <strong>E-posta:</strong> info@kocayaylakoop.org
+            ✉ <strong>E-posta:</strong> kocayaylakooperatifi@gmail.com
           </p>
         </div>
 

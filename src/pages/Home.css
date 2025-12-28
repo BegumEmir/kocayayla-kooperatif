@@ -321,3 +321,67 @@
 .swiper-button-prev {
   color: #4a7c59;
 }
+
+/* =========================
+   BAŞKANIN MESAJI – HOME
+========================= */
+
+.home-president {
+  background: transparent;
+  padding: 56px 0;
+  margin-top: 40px;
+}
+
+.home-president-inner {
+  max-width: 960px;     /* HERO'DAN DAHA DAR */
+  margin: 0 auto;
+  padding: 48px;
+
+  background: #ffffff;       /* BEYAZ KART BURADA */
+  border-radius: 20px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+
+  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+}
+
+
+.president-text h2 {
+  font-size: 28px;
+  margin-bottom: 12px;
+  color: #4a7c59;
+}
+
+.president-text p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #444;
+  max-width: 420px;
+}
+
+.president-video {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 oran */
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 16px 40px rgba(0,0,0,0.18);
+}
+
+.president-video iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+
+@media (max-width: 768px) {
+  .home-president-inner {
+    grid-template-columns: 1fr;
+  }
+}

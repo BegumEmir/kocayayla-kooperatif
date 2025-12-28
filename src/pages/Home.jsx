@@ -52,8 +52,49 @@ const base = process.env.PUBLIC_URL;
             </Link>
           </div>
         </div>
-      </div>
 
+        
+      </div>
+          {/* BAŞKANIN MESAJI */}
+          <section className="home-president">
+            <div className="home-president-inner">
+
+              <div className="president-text">
+                <h2>Kooperatif Başkanımızdan Mesaj</h2>
+                <p>
+                  Kooperatifimizin kuruluşundan bugüne kadar geçen süreci,
+                  hedeflerimizi ve üreticilerimiz için yürüttüğümüz çalışmaları
+                  başkanımızdan dinleyebilirsiniz.
+                </p>
+              </div>
+              
+              <div className="president-video">
+                {/*
+                <video controls poster={process.env.PUBLIC_URL + "/baskan.jpeg"}>
+                  <source
+                    src={process.env.PUBLIC_URL + "/galeri/baskan-mesaji.mp4"}
+                    type="video/mp4"
+                  />
+                  Tarayıcınız video oynatmayı desteklemiyor.
+                </video>
+                */}
+                
+                {/* YouTube kullanacaksan bunu aç, yukarıdakini kapat */}
+                
+                <iframe
+                  src="https://www.youtube.com/embed/ctksvoYBpWs"
+                  title="Kooperatif Başkanımızdan Mesaj"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+                
+              </div>
+
+            </div>
+          </section>
+
+          
       {/* DUYURULAR */}
       <h2 className="home-section-title">Duyurular</h2>
 

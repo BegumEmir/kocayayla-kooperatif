@@ -56,7 +56,7 @@ export default function Iletisim() {
     <div className="page iletisim-page">
       <h1>İletişim</h1>
       <p className="iletisim-desc">
-        Bizimle iletişime geçmek için aşağıdaki formu doldurabilir veya konumumuzu harita üzerinden görüntüleyebilirsiniz.
+        Bizimle iletişime geçmek için aşağıdaki telefon numarasını arayabilir, e-posta adresimize mail atabilir veya konumumuzu harita üzerinden görüntüleyebilirsiniz.
       </p>
 
       {success && <div className="success-notify">✔ Mesajınız başarıyla gönderildi!</div>}
@@ -69,11 +69,13 @@ export default function Iletisim() {
 
           <p><strong>Adres:</strong><br /> Kocayayla Köyü, Çanakkale</p>
           <p><strong>Telefon:</strong><br /> 0 (554) 495 74 86</p>
-          <p><strong>E-posta:</strong><br /> info@kocayaylakoop.org</p>
-
+          <p><strong>E-posta:</strong><br /> kocayaylakooperatifi@gmail.com</p>
+{/*
           <div className="info-box-green">
             Kooperatifimiz hakkında bilgi almak veya iletişime geçmek için formu kullanabilirsiniz.
           </div>
+*/}
+          
 
           {/* Google Maps */}
           <div className="harita-kutu">

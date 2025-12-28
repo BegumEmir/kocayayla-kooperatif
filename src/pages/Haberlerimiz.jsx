@@ -3,14 +3,16 @@ import { Link } from "react-router-dom";
 import "./Haberlerimiz.css";
 import haberler from "../data/haberler";
 
-
 export default function Haberlerimiz() {
+  const reversed = haberler.slice().reverse();
+  const isSingle = reversed.length === 1;
+
   return (
     <div className="page haberler-page">
       <h1>Haberlerimiz</h1>
 
-      <div className="haberler-grid">
-        {haberler.slice().reverse().map((h) => (
+      <div className={`haberler-grid ${isSingle ? "single" : ""}`}>
+        {reversed.map((h) => (
           <div className="haber-card" key={h.id}>
             <img src={h.foto} alt={h.baslik} className="haber-img" />
 
@@ -24,6 +26,14 @@ export default function Haberlerimiz() {
           </div>
         ))}
       </div>
+
+      {/* Tek haber varsa mesaj */}
+      {isSingle && (
+        <div className="no-more-news">
+          📰 Yeni haberler çok yakında paylaşılacaktır.
+        </div>
+      )}
     </div>
   );
 }
+
