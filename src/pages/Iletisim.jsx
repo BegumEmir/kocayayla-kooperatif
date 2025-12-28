@@ -1,5 +1,4 @@
 //import { useState } from "react";
-git add src/pages/Iletisim.jsx
 import "./Iletisim.css";
 
 export default function Iletisim() {
