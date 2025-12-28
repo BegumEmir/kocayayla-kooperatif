@@ -1,4 +1,4 @@
-const base = process.env.PUBLIC_URL;
+
 
 const duyurular = [
   {

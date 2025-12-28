@@ -2,55 +2,55 @@ import { useState } from "react";
 import "./Iletisim.css";
 
 export default function Iletisim() {
-  const [form, setForm] = useState({
-    ad: "",
-    email: "",
-    konu: "",
-    mesaj: "",
-  });
+  // const [form, setForm] = useState({
+  //   ad: "",
+  //   email: "",
+  //   konu: "",
+  //   mesaj: "",
+  // });
 
-  const [errors, setErrors] = useState({});
-  const [success, setSuccess] = useState(false);
+  // const [errors, setErrors] = useState({});
+  // const [success, setSuccess] = useState(false);
 
-  const handleChange = (e) => {
-    setForm({ ...form, [e.target.name]: e.target.value });
-  };
+  // const handleChange = (e) => {
+  //   setForm({ ...form, [e.target.name]: e.target.value });
+  // };
 
-  const validate = () => {
-    const newErrors = {};
+  // const validate = () => {
+  //   const newErrors = {};
 
-    if (!form.ad.trim()) newErrors.ad = "Ad soyad zorunludur.";
-    if (!form.konu.trim()) newErrors.konu = "Konu zorunludur.";
-    if (!form.mesaj.trim()) newErrors.mesaj = "Mesaj boş bırakılamaz.";
+  //   if (!form.ad.trim()) newErrors.ad = "Ad soyad zorunludur.";
+  //   if (!form.konu.trim()) newErrors.konu = "Konu zorunludur.";
+  //   if (!form.mesaj.trim()) newErrors.mesaj = "Mesaj boş bırakılamaz.";
 
-    if (!form.email.trim()) {
-      newErrors.email = "E-posta zorunludur.";
-    } else if (!/\S+@\S+\.\S+/.test(form.email)) {
-      newErrors.email = "Geçerli bir e-posta adresi giriniz.";
-    }
+  //   if (!form.email.trim()) {
+  //     newErrors.email = "E-posta zorunludur.";
+  //   } else if (!/\S+@\S+\.\S+/.test(form.email)) {
+  //     newErrors.email = "Geçerli bir e-posta adresi giriniz.";
+  //   }
 
-    return newErrors;
-  };
+  //   return newErrors;
+  // };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
 
-    const validationErrors = validate();
-    setErrors(validationErrors);
+  //   const validationErrors = validate();
+  //   setErrors(validationErrors);
 
-    if (Object.keys(validationErrors).length === 0) {
-      setSuccess(true);
+  //   if (Object.keys(validationErrors).length === 0) {
+  //     setSuccess(true);
 
-      setForm({
-        ad: "",
-        email: "",
-        konu: "",
-        mesaj: "",
-      });
+  //     setForm({
+  //       ad: "",
+  //       email: "",
+  //       konu: "",
+  //       mesaj: "",
+  //     });
 
-      setTimeout(() => setSuccess(false), 2000);
-    }
-  };
+  //     setTimeout(() => setSuccess(false), 2000);
+  //   }
+  // };
 
   return (
     <div className="page iletisim-page">
@@ -59,7 +59,7 @@ export default function Iletisim() {
         Bizimle iletişime geçmek için aşağıdaki telefon numarasını arayabilir, e-posta adresimize mail atabilir veya konumumuzu harita üzerinden görüntüleyebilirsiniz.
       </p>
 
-      {success && <div className="success-notify">✔ Mesajınız başarıyla gönderildi!</div>}
+      {/* {success && <div className="success-notify">✔ Mesajınız başarıyla gönderildi!</div>} */}
 
       <div className="iletisim-container">
 
@@ -83,6 +83,7 @@ export default function Iletisim() {
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5802.73514653294!2d26.984421644550427!3d40.08884588597666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b13080e6199241%3A0xc3b79c5e7c0aa78e!2sKocayayla%2C%2017402%20Kocayayla%2F%C3%87an%2F%C3%87anakkale!5e1!3m2!1str!2str!4v1763846581857!5m2!1str!2str"
               loading="lazy"
               allowFullScreen=""
+              title="Kocayayla Kooperatifi Konum Haritası"
             ></iframe>
           </div>
         </div>
