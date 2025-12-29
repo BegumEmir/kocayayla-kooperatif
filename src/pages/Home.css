@@ -322,6 +322,23 @@
   color: #4a7c59;
 }
 
+.home-highlight {
+  background: #f6f8f5;
+  border-left: 4px solid #4a7c59;
+  padding: 20px 24px;
+  margin: 40px auto;
+  max-width: 900px;
+  border-radius: 8px;
+}
+
+.home-highlight p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #2f3d2f;
+  font-weight: 500;
+}
+
 /* =========================
    BAŞKANIN MESAJI – HOME
 ========================= */

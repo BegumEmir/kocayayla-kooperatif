@@ -51,10 +51,14 @@ const base = process.env.PUBLIC_URL;
               Ortaklarımız
             </Link>
           </div>
-        </div>
-
-        
+        </div>  
       </div>
+      {/* TANITIM VURGUSU */}
+      <section className="home-highlight">
+        <p>
+          İlçemizin en büyük köylerinden biri olan Kocayayla, aynı zamanda ilçede en yüksek süt üretiminin gerçekleştirildiği yerleşim yeridir.
+        </p>
+      </section>
           {/* BAŞKANIN MESAJI */}
           <section className="home-president">
             <div className="home-president-inner">
@@ -82,7 +86,7 @@ const base = process.env.PUBLIC_URL;
                 {/* YouTube kullanacaksan bunu aç, yukarıdakini kapat */}
                 
                 <iframe
-                  src="https://www.youtube.com/embed/ctksvoYBpWs"
+                  src="https://www.youtube.com/embed/t71O9faKv0w"
                   title="Kooperatif Başkanımızdan Mesaj"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
