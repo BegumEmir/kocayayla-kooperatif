@@ -19,7 +19,7 @@ export default function Baskanlar() {
           <div className="baskan-bilgi">
             <h3>İsa Özmen</h3>
             <p className="baskan-unvan">Kooperatif Başkanı</p>
-            <p className="baskan-donem">Görev Dönemi: 2023 – Devam Ediyor</p>
+            <p className="baskan-donem">Görev Dönemi: 2024 Mart 7 – Devam Ediyor</p>
 
             <p className="baskan-aciklama">
               Kooperatif Başkanımız, üretici odaklı yaklaşım ile kooperatifimizin
