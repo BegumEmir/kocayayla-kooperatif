@@ -137,25 +137,27 @@ export default function Ortaklarimiz() {
 
         <div className="dilekce-listesi">
           <a
-            href={`${process.env.PUBLIC_URL}/dilekceler/Kocayayla_Uyelik_Basvuru_Dilekcesi.doc`}
+            href={`${process.env.PUBLIC_URL}/dilekceler/uyelik-basvuru.pdf`}
             target="_blank"
             rel="noopener noreferrer"
             download
             className="dilekce-link"
           >
-            📄 Ortaklık Başvuru Dilekçesi
+            📄 Ortaklık Başvuru Dilekçesi (PDF)
           </a>
+
 
 
           <a
-            href={`${process.env.PUBLIC_URL}/dilekceler/Kocayayla_Hisse_Devir_Dilekcesi.doc`}
+            href={`${process.env.PUBLIC_URL}/dilekceler/hisse-devir.pdf`}
             target="_blank"
             rel="noopener noreferrer"
             download
             className="dilekce-link"
           >
-            📄 Hisse Devir Dilekçesi
+            📄 Hisse Devir Dilekçesi (PDF)
           </a>
+
         </div>
         <p>Dilekçeler bilgisayar ortamında doldurulup imzalanarak kooperatif yönetimine teslim edilmelidir.</p>
       </section>
