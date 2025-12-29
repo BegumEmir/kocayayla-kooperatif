@@ -159,7 +159,7 @@ export default function Ortaklarimiz() {
           </a>
 
         </div>
-        <p>Dilekçeler bilgisayar ortamında doldurulup imzalanarak kooperatif yönetimine teslim edilmelidir.</p>
+        <p>Doldurulan dilekçeler ıslak imzalı olarak kooperatifimize teslim edilmelidir.</p>
       </section>
 
 
