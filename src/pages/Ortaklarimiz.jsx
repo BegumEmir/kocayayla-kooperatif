@@ -118,6 +118,46 @@ export default function Ortaklarimiz() {
           Güncel ortaklık bilgileri ve resmi kayıtlar KOOPBİS sistemi üzerinden
           takip edilmektedir.
         </p>
+
+        <p className="ortak-cta-note">
+          Aşağıda yer alan dilekçeler indirilerek doldurulabilir.
+        </p>
+
+        
+      </section>
+      <section className="ortak-dilekceler">
+        <h3>Ortaklık İşlemleri ve Dilekçeler</h3>
+
+        <p>
+          Kooperatifimizde ortaklık başvurusu ve hisse devri işlemleri,
+          aşağıda yer alan resmi dilekçeler aracılığıyla yapılmaktadır.
+          Gerekli belgeler dilekçelerde belirtilmiş olup, başvurular
+          kooperatif yönetimi tarafından değerlendirilmektedir.
+        </p>
+
+        <div className="dilekce-listesi">
+          <a
+            href={`${process.env.PUBLIC_URL}/dilekceler/Kocayayla_Uyelik_Basvuru_Dilekcesi.doc`}
+            target="_blank"
+            rel="noopener noreferrer"
+            download
+            className="dilekce-link"
+          >
+            📄 Ortaklık Başvuru Dilekçesi
+          </a>
+
+
+          <a
+            href={`${process.env.PUBLIC_URL}/dilekceler/Kocayayla_Hisse_Devir_Dilekcesi.doc`}
+            target="_blank"
+            rel="noopener noreferrer"
+            download
+            className="dilekce-link"
+          >
+            📄 Hisse Devir Dilekçesi
+          </a>
+        </div>
+        <p>Dilekçeler bilgisayar ortamında doldurulup imzalanarak kooperatif yönetimine teslim edilmelidir.</p>
       </section>
 
 

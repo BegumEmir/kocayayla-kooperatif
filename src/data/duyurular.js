@@ -5,8 +5,8 @@ const duyurular = [
     id: 1,
     baslik: "Genel Kurul Toplantısı",
     aciklama:
-      "Kooperatifimizin olağan genel kurul toplantısı, gündem maddeleri doğrultusunda gerçekleştirildi.",
-    tarih: "15 Ocak 2025",
+      "2024 yılı Olağan Genel Kurul toplantısı 10 Nisan 2025 tarihinde yapılmıştır",
+    tarih: "10 Nisan 2025",
     gorsel: null, // fotoğraf yok, istersen null
   },
 ];

@@ -161,3 +161,42 @@
     align-items: flex-start;
   }
 }
+
+.ortak-dilekceler {
+  margin-top: 40px;
+  padding: 32px;
+  background: #ffffff;
+  border-radius: 16px;
+}
+
+.ortak-dilekceler h3 {
+  color: #4a7c59;
+  margin-bottom: 12px;
+}
+
+.ortak-dilekceler p {
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.dilekce-listesi {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.dilekce-link {
+  display: inline-block;
+  padding: 14px 18px;
+  border: 1px solid #4a7c59;
+  border-radius: 10px;
+  color: #4a7c59;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.dilekce-link:hover {
+  background: #4a7c59;
+  color: #ffffff;
+}
