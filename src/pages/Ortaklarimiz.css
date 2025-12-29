@@ -200,3 +200,45 @@
   background: #4a7c59;
   color: #ffffff;
 }
+
+.dilekce-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #d7e3da;
+  border-radius: 14px;
+  padding: 18px 20px;
+  margin-top: 16px;
+  background: #fff;
+}
+
+.dilekce-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.btn-outline {
+  padding: 8px 16px;
+  border: 1px solid #4a7c59;
+  border-radius: 8px;
+  color: #4a7c59;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.btn-outline:hover {
+  background: #f1f6f3;
+}
+
+.btn-solid {
+  padding: 8px 16px;
+  background: #4a7c59;
+  border-radius: 8px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.btn-solid:hover {
+  background: #3e6a4d;
+}

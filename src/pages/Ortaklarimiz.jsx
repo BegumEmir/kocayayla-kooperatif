@@ -135,30 +135,59 @@ export default function Ortaklarimiz() {
           kooperatif yönetimi tarafından değerlendirilmektedir.
         </p>
 
-        <div className="dilekce-listesi">
-          <a
-            href={`${process.env.PUBLIC_URL}/dilekceler/uyelik-basvuru.pdf`}
-            target="_blank"
-            rel="noopener noreferrer"
-            download
-            className="dilekce-link"
-          >
-            📄 Ortaklık Başvuru Dilekçesi (PDF)
-          </a>
+        <div className="dilekce-item">
+          <div className="dilekce-info">
+            📄 <strong>Ortaklık Başvuru Dilekçesi</strong>
+          </div>
 
+          <div className="dilekce-actions">
+            {/* GÖRÜNTÜLE */}
+            <a
+              href={`${process.env.PUBLIC_URL}/dilekceler/uyelik-basvuru.pdf`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-outline"
+            >
+              Görüntüle
+            </a>
 
-
-          <a
-            href={`${process.env.PUBLIC_URL}/dilekceler/hisse-devir.pdf`}
-            target="_blank"
-            rel="noopener noreferrer"
-            download
-            className="dilekce-link"
-          >
-            📄 Hisse Devir Dilekçesi (PDF)
-          </a>
-
+            {/* İNDİR */}
+            <a
+              href={`${process.env.PUBLIC_URL}/dilekceler/uyelik-basvuru.pdf`}
+              download
+              className="btn-solid"
+            >
+              İndir
+            </a>
+          </div>
         </div>
+
+
+        <div className="dilekce-item">
+          <div className="dilekce-info">
+            📄 <strong>Hisse Devir Dilekçesi</strong>
+          </div>
+
+          <div className="dilekce-actions">
+            <a
+              href={`${process.env.PUBLIC_URL}/dilekceler/hisse-devir.pdf`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-outline"
+            >
+              Görüntüle
+            </a>
+
+            <a
+              href={`${process.env.PUBLIC_URL}/dilekceler/hisse-devir.pdf`}
+              download
+              className="btn-solid"
+            >
+              İndir
+            </a>
+          </div>
+        </div>
+
         <p>Doldurulan dilekçeler ıslak imzalı olarak kooperatifimize teslim edilmelidir.</p>
       </section>
 
