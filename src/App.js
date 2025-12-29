@@ -13,6 +13,7 @@ import Duyurularimiz from "./pages/Duyurularimiz";
 import HaberDetay from "./pages/HaberDetay";
 import YonetimKurulu from "./pages/YonetimKurulu";
 import DenetimKurulu from "./pages/DenetimKurulu";
+import Baskanlar from "./pages/Baskanlar";
 
 import Footer from "./components/Footer";
 
@@ -32,6 +33,7 @@ function App() {
             <Route path="/kurumsal/hakkimizda" element={<Hakkimizda />} />
             <Route path="/kurumsal/yonetim-kurulu" element={<YonetimKurulu />} />
             <Route path="/kurumsal/denetim-kurulu" element={<DenetimKurulu />} />
+            <Route path="/kurumsal/baskanlar" element={<Baskanlar />} />
 
             <Route path="/kurumsal/ortaklarimiz" element={<Ortaklarimiz />} />
 

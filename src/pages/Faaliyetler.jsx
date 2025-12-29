@@ -52,9 +52,8 @@ export default function Faaliyetler() {
           <div className="faaliyet-img-wrapper icon-only">🌾</div>
           <h2>🌾 Un Temini</h2>
           <p>
-            Kooperatifimiz tarafından, üreticilerimizin temel gıda ihtiyacını
-            karşılamak amacıyla her pazar günü müstahsillerimizin evlerine
-            ücretsiz olarak un dağıtımı yapılmaktadır.
+            Kooperatifimiz tarafından her pazar günü müstahsillerimizin evlerine
+            un dağıtımı ücretsiz olarak yapılmaktadır.
           </p>
         </div>
 

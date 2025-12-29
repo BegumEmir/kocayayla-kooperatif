@@ -90,6 +90,11 @@ const base = process.env.PUBLIC_URL;
                 ></iframe>
                 
               </div>
+              <div className="president-links">
+                <Link to="/kurumsal/baskanlar" className="baskanlar-link">
+                  Başkanlarımızı Tanıyın →
+                </Link>
+              </div>
 
             </div>
           </section>

@@ -385,3 +385,14 @@
     grid-template-columns: 1fr;
   }
 }
+.baskanlar-link {
+  display: inline-block;
+  margin-top: 16px;
+  color: #4a7c59;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.baskanlar-link:hover {
+  text-decoration: underline;
+}

@@ -36,9 +36,11 @@ export default function Navbar() {
             <button className="dropdown-toggle">Kurumsal ▾</button>
             <ul className="dropdown-menu">
               <li><Link to="/kurumsal/hakkimizda">Hakkımızda</Link></li>
+              <li><Link to="/kurumsal/baskanlar">Başkanlar</Link></li>
               <li><Link to="/kurumsal/yonetim-kurulu">Yönetim Kurulu</Link></li>
               <li><Link to="/kurumsal/denetim-kurulu">Denetim Kurulu</Link></li>
               <li><Link to="/kurumsal/ortaklarimiz">Ortaklarımız</Link></li>
+              
             </ul>
           </li>
 
@@ -69,6 +71,7 @@ export default function Navbar() {
           <button className="dropdown-toggle" onClick={() => toggleDropdown("kurumsal")}>Kurumsal ▾</button>
           <ul className={`dropdown-menu ${openDropdown === "kurumsal" ? "show" : ""}`}>
             <li><Link to="/kurumsal/hakkimizda" onClick={closeAll}>Hakkımızda</Link></li>
+            <li><Link to="/kurumsal/baskanlar" onClick={closeAll}>Başkanlar</Link></li>
             <li><Link to="/kurumsal/yonetim-kurulu" onClick={closeAll}>Yönetim Kurulu</Link></li>
             <li><Link to="/kurumsal/denetim-kurulu" onClick={closeAll}>Denetim Kurulu</Link></li>
             <li><Link to="/kurumsal/ortaklarimiz" onClick={closeAll}>Ortaklarımız</Link></li>
