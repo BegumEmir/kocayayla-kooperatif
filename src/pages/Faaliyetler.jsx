@@ -1,6 +1,9 @@
 import "./Faaliyetler.css";
+import useDocumentTitle from "../hooks/useDocumentTitle";
 
 export default function Faaliyetler() {
+  useDocumentTitle("Faaliyetlerimiz | Kocayayla Kooperatifi");
+
   return (
     <div className="page faaliyet-page">
 

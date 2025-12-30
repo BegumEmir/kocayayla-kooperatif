@@ -2,8 +2,11 @@ import "../App.css";
 import { Link } from "react-router-dom";
 import "./Haberlerimiz.css";
 import haberler from "../data/haberler";
+import useDocumentTitle from "../hooks/useDocumentTitle";
 
 export default function Haberlerimiz() {
+  useDocumentTitle("Haberler | Kocayayla Kooperatifi");
+
   const reversed = haberler.slice().reverse();
   const isSingle = reversed.length === 1;
 

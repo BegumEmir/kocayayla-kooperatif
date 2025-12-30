@@ -1,8 +1,11 @@
 import "./Hakkimizda.css";
 import { Link } from "react-router-dom";
+import useDocumentTitle from "../hooks/useDocumentTitle";
 
 
 export default function Hakkimizda() {
+  useDocumentTitle("Kurumsal Kimliğimiz | Kocayayla Kooperatifi");
+
   return (
     <div className="page hakkimizda-page">
       {/* Üst kısım: Başlık + kısa özet */}

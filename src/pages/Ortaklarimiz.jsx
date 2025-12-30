@@ -1,6 +1,9 @@
 import "./Ortaklarimiz.css";
+import useDocumentTitle from "../hooks/useDocumentTitle";
 
 export default function Ortaklarimiz() {
+  useDocumentTitle("Ortaklarımız | Kocayayla Kooperatifi");
+
   return (
     <div className="page ortaklar-page">
       <h1>Ortaklarımız</h1>

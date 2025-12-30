@@ -2,8 +2,11 @@ import { useState } from "react";
 import "../App.css";
 import "./Duyurular.css";
 import duyurular from "../data/duyurular";
+import useDocumentTitle from "../hooks/useDocumentTitle";
 
 export default function Duyurularimiz() {
+  useDocumentTitle("Duyurular | Kocayayla Kooperatifi");
+
   const [openId, setOpenId] = useState(null);
 
   const toggle = (id) => {

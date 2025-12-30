@@ -1,6 +1,8 @@
 import "./Baskanlar.css";
+import useDocumentTitle from "../hooks/useDocumentTitle";
 
 export default function Baskanlar() {
+  useDocumentTitle("Başkanlarımız | Kocayayla Kooperatifi");
   return (
     <div className="page baskanlar-page">
       <h1>Kooperatif Başkanlarımız</h1>

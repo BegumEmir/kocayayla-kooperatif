@@ -1,7 +1,10 @@
 //import { useState } from "react";
 import "./Iletisim.css";
+import useDocumentTitle from "../hooks/useDocumentTitle";
 
 export default function Iletisim() {
+  useDocumentTitle("İletişim | Kocayayla Kooperatifi");
+
   // const [form, setForm] = useState({
   //   ad: "",
   //   email: "",

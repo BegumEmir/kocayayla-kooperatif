@@ -1,7 +1,9 @@
 import { useState } from "react";
 import "./Galeri.css";
+import useDocumentTitle from "../hooks/useDocumentTitle";
 
 export default function Galeri() {
+  useDocumentTitle("Galeri | Kocayayla Kooperatifi");
   const [selectedImage, setSelectedImage] = useState(null);
 
   const images = [

@@ -9,9 +9,11 @@ import { Navigation } from "swiper/modules";
 
 import "swiper/css";
 import "swiper/css/navigation";
+import useDocumentTitle from "../hooks/useDocumentTitle";
 
 
 export default function Home() {
+  useDocumentTitle("Kocayayla Kooperatifi | Ana Sayfa");
 const base = process.env.PUBLIC_URL;  
 
   const sonDuyurular = duyurular.slice().reverse().slice(0, 3);

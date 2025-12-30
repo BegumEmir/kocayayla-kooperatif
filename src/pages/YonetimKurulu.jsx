@@ -1,6 +1,8 @@
 import "./YonetimKurulu.css";
+import useDocumentTitle from "../hooks/useDocumentTitle";
 
 export default function YonetimKurulu() {
+  useDocumentTitle("Yönetim Kurulumuz | Kocayayla Kooperatifi");
   return (
     <div className="page yonetim-page">
       <h1>Yönetim Kurulu</h1>

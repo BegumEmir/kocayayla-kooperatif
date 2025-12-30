@@ -1,13 +1,21 @@
 import { useParams, Link } from "react-router-dom";
 import { useState } from "react";
-import haberler from "../data/haberler";   
+import haberler from "../data/haberler";
 import "./HaberDetay.css";
+import useDocumentTitle from "../hooks/useDocumentTitle";
 
 export default function HaberDetay() {
   const { id } = useParams();
   const [copied, setCopied] = useState(false);
 
   const haber = haberler.find((h) => String(h.id) === String(id));
+
+  // ✅ Hook HER ZAMAN çağrılıyor
+  useDocumentTitle(
+    haber
+      ? `${haber.baslik} | Kocayayla Kooperatifi`
+      : "Haber Bulunamadı | Kocayayla Kooperatifi"
+  );
 
   if (!haber) {
     return (
@@ -27,7 +35,6 @@ export default function HaberDetay() {
   return (
     <div className="page haber-detay-page">
       <div className="haber-detay-card">
-        
         <nav className="haber-breadcrumb">
           <Link to="/">Ana Sayfa</Link>
           <span>›</span>
