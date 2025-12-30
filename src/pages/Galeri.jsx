@@ -3,7 +3,7 @@ import "./Galeri.css";
 import useDocumentTitle from "../hooks/useDocumentTitle";
 
 export default function Galeri() {
-  useDocumentTitle("Galeri | Kocayayla Kooperatifi");
+  useDocumentTitle("Galeri | S.S. Kocayayla Köyü Tarımsal Kalkınma Kooperatifi");
   const [selectedImage, setSelectedImage] = useState(null);
 
   const images = [
@@ -40,7 +40,7 @@ export default function Galeri() {
       <div className="galeri-grid">
         {images.map((img, i) => (
           <div className="galeri-item" key={i} onClick={() => setSelectedImage(img)}>
-            <img src={img} alt={`Galeri ${i + 1}`} />
+            <img src={img} alt={`Kooperatifimizden Kareler ${i + 1}`} />
           </div>
         ))}
       </div>

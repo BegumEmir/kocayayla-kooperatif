@@ -13,8 +13,8 @@ export default function HaberDetay() {
   // ✅ Hook HER ZAMAN çağrılıyor
   useDocumentTitle(
     haber
-      ? `${haber.baslik} | Kocayayla Kooperatifi`
-      : "Haber Bulunamadı | Kocayayla Kooperatifi"
+      ? `${haber.baslik} | S.S. Kocayayla Köyü Tarımsal Kalkınma Kooperatifi`
+      : "Haber Bulunamadı | S.S. Kocayayla Köyü Tarımsal Kalkınma Kooperatifi"
   );
 
   if (!haber) {
@@ -63,8 +63,11 @@ export default function HaberDetay() {
         </figure>
 
         <article className="haber-detay-body">
-          <p>{haber.detay}</p>
+          {haber.detay.split("\n").map((satir, index) => (
+            <p key={index}>{satir}</p>
+          ))}
         </article>
+
 
         <div className="haber-detay-footer">
           <Link to="/medya/haberlerimiz" className="haber-back-link">

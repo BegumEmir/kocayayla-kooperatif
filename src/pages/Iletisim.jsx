@@ -3,7 +3,7 @@ import "./Iletisim.css";
 import useDocumentTitle from "../hooks/useDocumentTitle";
 
 export default function Iletisim() {
-  useDocumentTitle("İletişim | Kocayayla Kooperatifi");
+  useDocumentTitle("İletişim | S.S. Kocayayla Köyü Tarımsal Kalkınma Kooperatifi");
 
   // const [form, setForm] = useState({
   //   ad: "",

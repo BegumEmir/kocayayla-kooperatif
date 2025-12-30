@@ -2,14 +2,14 @@ import "./Baskanlar.css";
 import useDocumentTitle from "../hooks/useDocumentTitle";
 
 export default function Baskanlar() {
-  useDocumentTitle("Başkanlarımız | Kocayayla Kooperatifi");
+  useDocumentTitle("Başkanlarımız | S.S. Kocayayla Köyü Tarımsal Kalkınma Kooperatifi");
   return (
     <div className="page baskanlar-page">
       <h1>Kooperatif Başkanlarımız</h1>
 
       {/* Mevcut Başkan */}
       <section className="mevcut-baskan">
-        <h2>Mevcut Başkan</h2>
+        <h2>Mevcut Başkanımız</h2>
 
         <div className="baskan-card">
           <img

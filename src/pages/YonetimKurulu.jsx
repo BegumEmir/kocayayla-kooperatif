@@ -2,7 +2,7 @@ import "./YonetimKurulu.css";
 import useDocumentTitle from "../hooks/useDocumentTitle";
 
 export default function YonetimKurulu() {
-  useDocumentTitle("Yönetim Kurulumuz | Kocayayla Kooperatifi");
+  useDocumentTitle("Yönetim Kurulumuz | S.S. Kocayayla Köyü Tarımsal Kalkınma Kooperatifi");
   return (
     <div className="page yonetim-page">
       <h1>Yönetim Kurulu</h1>
@@ -21,7 +21,7 @@ export default function YonetimKurulu() {
           <div className="yonetim-img">
             <img
               src={process.env.PUBLIC_URL + "/galeri/baskan.jpeg"}
-              alt="İsa Özmen"
+              alt="Yönetim Kurulu Başkanı"
             />
           </div>
           <h3>İsa Özmen</h3>
@@ -44,7 +44,7 @@ export default function YonetimKurulu() {
           <div className="yonetim-img">
             <img
               src={process.env.PUBLIC_URL + "/galeri/sayman.jpeg"}
-              alt="Sayman"
+              alt="Muhasip Üye"
             />
           </div>
           <h3>İsmail Tüzgen</h3>

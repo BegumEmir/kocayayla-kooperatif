@@ -5,7 +5,7 @@ import duyurular from "../data/duyurular";
 import useDocumentTitle from "../hooks/useDocumentTitle";
 
 export default function Duyurularimiz() {
-  useDocumentTitle("Duyurular | Kocayayla Kooperatifi");
+  useDocumentTitle("Duyurular | S.S. Kocayayla Köyü Tarımsal Kalkınma Kooperatifi");
 
   const [openId, setOpenId] = useState(null);
 

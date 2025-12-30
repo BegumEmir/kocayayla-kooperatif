@@ -13,7 +13,7 @@ import useDocumentTitle from "../hooks/useDocumentTitle";
 
 
 export default function Home() {
-  useDocumentTitle("Kocayayla Kooperatifi | Ana Sayfa");
+  useDocumentTitle("S.S. Kocayayla Köyü Tarımsal Kalkınma Kooperatifi | Çanakkale");
 const base = process.env.PUBLIC_URL;  
 
   const sonDuyurular = duyurular.slice().reverse().slice(0, 3);
@@ -37,10 +37,16 @@ const base = process.env.PUBLIC_URL;
 
         <div className="home-hero-right">
           <h1>Kooperatifimize Hoş Geldiniz</h1>
-          <p>
-            Kocayayla Köyü'nün doğal üretim gücünü bir araya getiren,
-            dayanışmayı ve tarımsal kalkınmayı esas alan kooperatifimizle tanışın.
-          </p>
+          <div>
+            <p>
+              S.S. Kocayayla Köyü Tarımsal Kalkınma Kooperatifi, Çanakkale ili Çan ilçesine bağlı Kocayayla Köyü’nde faaliyet gösteren bir tarım kooperatifidir. 
+            </p>
+          </div>
+          <div>
+            <p className="ikinci-p">
+              Köyümüzün doğal üretim gücünü bir araya getirerek dayanışmayı ve tarımsal kalkınmayı esas alıyoruz.
+            </p>
+          </div>
 
           <div className="hero-buttons">
             <Link to="/kurumsal/hakkimizda" className="hero-btn primary">
@@ -88,7 +94,7 @@ const base = process.env.PUBLIC_URL;
                 {/* YouTube kullanacaksan bunu aç, yukarıdakini kapat */}
                 
                 <iframe
-                  src="https://www.youtube.com/embed/t71O9faKv0w"
+                  src="https://www.youtube.com/embed/De2y5FMnKCM"
                   title="Kooperatif Başkanımızdan Mesaj"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -174,11 +180,24 @@ const base = process.env.PUBLIC_URL;
           {[
             `${base}/galeri/ekibimiz.jpeg`,
             `${base}/galeri/süt-toplama-merkezi-ekip-fotosu.jpeg`,
+            `${base}/galeri/süt-toplama-arabası.jpeg`,
+            `${base}/galeri/çalışan-kepçe.jpeg`,
+            `${base}/galeri/haber-belge.jpeg`,
             `${base}/galeri/yönetim-ekibi.jpeg`,
             `${base}/galeri/yem-ezme-tesisi-ekip-fotosu.jpeg`,
             `${base}/galeri/kepçe.jpeg`,
             `${base}/galeri/değirmen.jpeg`,
+            `${base}/galeri/camii.png`,
+            `${base}/galeri/cami-yukardan.jpeg`,
+            `${base}/galeri/il-tarım-toplu-foto-belge.jpeg`,
+            `${base}/galeri/il-tarım-toplu-foto-yem-ezme-tesisi.jpeg`,
+            `${base}/galeri/il-tarım-toplu-süt-toplama-merkezi.jpeg`,
+            `${base}/galeri/manzara-ağaç.jpeg`,
+            `${base}/galeri/manzara-dikey.jpeg`,
+            `${base}/galeri/manzara.jpeg`,
+            `${base}/galeri/süt-soğutma-deposu-il-tarım.jpeg`,
             `${base}/galeri/süt-toplama-arabası.jpeg`,
+            `${base}/galeri/yatay-manzara.jpeg`,
           ].map((src, i) => (
             <SwiperSlide key={i}>
               <div className="gallery-slide">

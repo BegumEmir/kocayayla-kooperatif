@@ -2,7 +2,7 @@ import "./Ortaklarimiz.css";
 import useDocumentTitle from "../hooks/useDocumentTitle";
 
 export default function Ortaklarimiz() {
-  useDocumentTitle("Ortaklarımız | Kocayayla Kooperatifi");
+  useDocumentTitle("Ortaklarımız | S.S. Kocayayla Köyü Tarımsal Kalkınma Kooperatifi");
 
   return (
     <div className="page ortaklar-page">

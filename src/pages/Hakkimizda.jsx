@@ -4,7 +4,7 @@ import useDocumentTitle from "../hooks/useDocumentTitle";
 
 
 export default function Hakkimizda() {
-  useDocumentTitle("Kurumsal Kimliğimiz | Kocayayla Kooperatifi");
+  useDocumentTitle("Hakkımızda | S.S. Kocayayla Köyü Tarımsal Kalkınma Kooperatifi");
 
   return (
     <div className="page hakkimizda-page">
@@ -33,7 +33,7 @@ export default function Hakkimizda() {
         {/* Görsel alan – şimdilik placeholder, sonra foto koyarsın */}
         <div className="hakkimizda-hero-image">
           <div className="hakkimizda-hero-placeholder">
-            <img src={process.env.PUBLIC_URL + "/galeri/süt-toplama-merkezi-ekip-fotosu.jpeg"} alt="Kooperatif Fotoğrafı" />
+            <img src={process.env.PUBLIC_URL + "/galeri/süt-toplama-merkezi-ekip-fotosu.jpeg"} alt="Kooperatif Ekip Fotoğrafı" />
           </div>
         </div>
       </section>

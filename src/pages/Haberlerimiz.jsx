@@ -5,7 +5,7 @@ import haberler from "../data/haberler";
 import useDocumentTitle from "../hooks/useDocumentTitle";
 
 export default function Haberlerimiz() {
-  useDocumentTitle("Haberler | Kocayayla Kooperatifi");
+  useDocumentTitle("Haberler | S.S. Kocayayla Köyü Tarımsal Kalkınma Kooperatifi");
 
   const reversed = haberler.slice().reverse();
   const isSingle = reversed.length === 1;

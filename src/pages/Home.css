@@ -50,6 +50,14 @@
   color: #555;
 }
 
+.home-hero-right .ikinci-p.ikinci-p {
+  font-size: 0.9rem;      /* mobil + desktop uyumlu */
+  color: #6f6f6f;         /* #777 biraz koyu kalabiliyor */
+  margin-top: 6px;
+  line-height: 1.5;
+}
+
+
 /* -------- HERO BUTONLARI -------- */
 
 .hero-buttons {
