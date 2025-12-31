@@ -26,8 +26,8 @@ export default function Ortaklarimiz() {
         <p>
           Kooperatifimiz, Kocayayla Köyü’nde tarım ve hayvancılıkla uğraşan
           üreticilerin gönüllü katılımıyla faaliyet göstermektedir. Bugün
-          kooperatifimiz bünyesinde <strong>179 ortağımız</strong> ve{" "}
-          <strong>78 aktif ortak</strong> bulunmaktadır.
+          kooperatifimizin bünyesinde <strong>179 ortağımız</strong> bulunmakta olup bunlardan {" "}
+          <strong>78 tanesi aktif olarak</strong> faaliyetlerine devam etmektedir.
         </p>
 
         <p>

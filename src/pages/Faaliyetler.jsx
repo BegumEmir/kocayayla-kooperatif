@@ -25,7 +25,7 @@ export default function Faaliyetler() {
         <div className="faaliyet-card">
           <div className="faaliyet-img-wrapper">
             <img
-              src={process.env.PUBLIC_URL + "/galeri/süt-toplama-arabası.jpeg"}
+              src={process.env.PUBLIC_URL + "/galeri/süt-soğutma-deposu-il-tarım.jpeg"}
               alt="Süt toplama ve soğutma hizmeti"
             />
           </div>

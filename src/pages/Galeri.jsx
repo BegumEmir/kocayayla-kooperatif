@@ -13,7 +13,6 @@ export default function Galeri() {
     process.env.PUBLIC_URL + "/galeri/yem-ezme-tesisi-ekip-fotosu.jpeg",
     process.env.PUBLIC_URL + "/galeri/kepçe.jpeg",
     process.env.PUBLIC_URL + "/galeri/değirmen.jpeg",
-    process.env.PUBLIC_URL + "/galeri/süt-toplama-arabası.jpeg",
     process.env.PUBLIC_URL + "/galeri/çalışan-kepçe.jpeg",
     process.env.PUBLIC_URL + "/galeri/cami-yukardan.jpeg",
     process.env.PUBLIC_URL + "/galeri/camii.png",
@@ -25,7 +24,6 @@ export default function Galeri() {
     process.env.PUBLIC_URL + "/galeri/manzara-dikey.jpeg",
     process.env.PUBLIC_URL + "/galeri/manzara.jpeg",
     process.env.PUBLIC_URL + "/galeri/süt-soğutma-deposu-il-tarım.jpeg",
-    process.env.PUBLIC_URL + "/galeri/süt-toplama-arabası.jpeg",
     process.env.PUBLIC_URL + "/galeri/yatay-manzara.jpeg"
   ];
 

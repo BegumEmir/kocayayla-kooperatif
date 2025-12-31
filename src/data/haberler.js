@@ -42,6 +42,18 @@ const haberler = [
     foto: `${base}/galeri/birinci-derece-kooperatif.jpeg`,
   },
 
+  {
+    id: 3,
+    kategori: "Haberler",
+    baslik: "Başkanımızdan Yeni Yıl Mesajı",
+    aciklama:
+      "2026 yılının tüm üreticilerimize hayırlı ve bol kazançlar getirmesini temenni ediyor, sağlık huzur mutluluk getirmesini diliyorum.",
+    detay: `2026 yılının tüm üreticilerimize hayırlı ve bol kazançlar getirmesini temenni ediyor, sağlık huzur mutluluk getirmesini diliyorum.`,
+
+    tarih: "31 Aralık 2025",
+    foto: `${base}/galeri/baskan-yakın-cekim.jpeg`,
+  },
+
 
 ];
 
