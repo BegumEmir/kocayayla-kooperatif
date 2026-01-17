@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import Navbar from "./components/Navbar";
 
 import Home from "./pages/Home";
@@ -30,6 +30,10 @@ function App() {
             <Route path="/" element={<Home />} />
 
             {/* Kurumsal */}
+            <Route
+              path="/kurumsal"
+              element={<Navigate to="/kurumsal/hakkimizda" replace />}
+            />
             <Route path="/kurumsal/hakkimizda" element={<Hakkimizda />} />
             <Route path="/kurumsal/yonetim-kurulu" element={<YonetimKurulu />} />
             <Route path="/kurumsal/denetim-kurulu" element={<DenetimKurulu />} />
