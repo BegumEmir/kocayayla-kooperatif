@@ -54,6 +54,18 @@ const haberler = [
     foto: `${base}/galeri/baskan-yakın-cekim.jpeg`,
   },
 
+    {
+    id: 4,
+    kategori: "Haberler",
+    baslik: "Olağan Genel Kurul Toplantımızı Gerçekleştirdik",
+    aciklama:
+      "Kooperatifimizin 2025 yılı Olağan Genel Kurul toplantısını 24 Mart 2026 tarihinde Kocayayla Köyü İlköğretim Okulunda gerçekleştirdik.",
+    detay: `Kooperatifimizin 2025 yılı Olağan Genel Kurul toplantısını 24 Mart 2026 tarihinde Kocayayla Köyü İlköğretim Okulunda gerçekleştirdik.`,
+
+    tarih: "25 Mart 2026",
+    foto: `${base}/galeri/genel-kurul.jpeg`,
+  },
+
 
 ];
 

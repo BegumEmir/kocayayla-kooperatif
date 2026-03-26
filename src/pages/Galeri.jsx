@@ -24,7 +24,9 @@ export default function Galeri() {
     process.env.PUBLIC_URL + "/galeri/manzara-dikey.jpeg",
     process.env.PUBLIC_URL + "/galeri/manzara.jpeg",
     process.env.PUBLIC_URL + "/galeri/süt-soğutma-deposu-il-tarım.jpeg",
-    process.env.PUBLIC_URL + "/galeri/yatay-manzara.jpeg"
+    process.env.PUBLIC_URL + "/galeri/yatay-manzara.jpeg",
+    process.env.PUBLIC_URL + "/galeri/yeni_yönetim.jpeg",
+    process.env.PUBLIC_URL + "/galeri/genel-kurul.jpeg"
   ];
 
   return (
