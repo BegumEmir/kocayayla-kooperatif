@@ -17,7 +17,19 @@ export default function Haberlerimiz() {
       <div className={`haberler-grid ${isSingle ? "single" : ""}`}>
         {reversed.map((h) => (
           <div className="haber-card" key={h.id}>
-            <img src={h.foto} alt={h.baslik} className="haber-img" />
+            {h.medya?.[0] && (
+              h.medya[0].type === "foto" ? (
+                <img src={h.medya[0].src} alt={h.baslik} className="haber-img" />
+              ) : (
+                <video
+                  src={`${h.medya[0].src}#t=0.001`}
+                  className="haber-img"
+                  muted
+                  playsInline
+                  preload="metadata"
+                />
+              )
+            )}
 
             <h2>{h.baslik}</h2>
             <p className="haber-aciklama">{h.aciklama}</p>

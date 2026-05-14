@@ -17,19 +17,7 @@ export default function DenetimKurulu() {
 
         <div className="denetim-card">
           <div className="denetim-icon">👤</div>
-          <h3>Yıldıray Liman</h3>
-          <p>Denetim Kurulu Başkanı</p>
-        </div>
-
-        <div className="denetim-card">
-          <div className="denetim-icon">👤</div>
-          <h3>Mestan Sapan</h3>
-          <p>Denetim Kurulu Üyesi</p>
-        </div>
-
-        <div className="denetim-card">
-          <div className="denetim-icon">👤</div>
-          <h3>Hasan Can</h3>
+          <h3>İlhan Koçuk</h3>
           <p>Denetim Kurulu Üyesi</p>
         </div>
 

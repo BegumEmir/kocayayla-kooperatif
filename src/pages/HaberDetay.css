@@ -108,13 +108,61 @@
 
 .haber-detay-img {
   width: 100%;
-  max-width: 760px;      /* <<< GERÇEK görüntü genişliği sınırı */
+  max-width: 760px;
   height: auto;
   display: block;
   margin: 0 auto;
   border-radius: 12px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
   object-fit: cover;
+}
+
+/* -------- Fotoğraf Slider -------- */
+
+.haber-detay-slider {
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+.haber-detay-slider .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #111;
+}
+
+.haber-detay-slider .swiper-slide img,
+.haber-detay-slider .swiper-slide video {
+  width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+  display: block;
+}
+
+.haber-detay-slider .swiper-button-prev,
+.haber-detay-slider .swiper-button-next {
+  color: #ffffff;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.5);
+}
+
+.haber-detay-slider .swiper-pagination-bullet-active {
+  background: #4a7c59;
+}
+
+/* -------- Video -------- */
+
+.haber-detay-video {
+  width: 100%;
+  max-width: 760px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
 }
 
 /* -------- Metin -------- */
@@ -173,7 +221,9 @@
     justify-content: center;
   }
 
-  .haber-detay-img {
+  .haber-detay-img,
+  .haber-detay-slider,
+  .haber-detay-video {
     max-width: 100%;
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
   }

@@ -1,5 +1,6 @@
 import { Routes, Route, Navigate } from "react-router-dom";
 import Navbar from "./components/Navbar";
+import ScrollToTop from "./components/ScrollToTop";
 
 import Home from "./pages/Home";
 import Hakkimizda from "./pages/Hakkimizda";
@@ -23,6 +24,7 @@ function App() {
   return (
     
       <div className="app-container">
+        <ScrollToTop />
         <Navbar />
 
         <div className="page-content">

@@ -1,0 +1,116 @@
+.haber-popup-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.52);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  padding: 16px;
+}
+
+.haber-popup {
+  background: #fff;
+  border-radius: 16px;
+  padding: 32px 28px 24px;
+  max-width: 480px;
+  width: 100%;
+  position: relative;
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.22);
+}
+
+.haber-popup-kapat {
+  position: absolute;
+  top: 14px;
+  right: 16px;
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: #999;
+  cursor: pointer;
+  padding: 4px 6px;
+  line-height: 1;
+  border-radius: 4px;
+}
+
+.haber-popup-kapat:hover {
+  color: #333;
+  background: #f0f0f0;
+}
+
+.haber-popup-etiket {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  background: #ecf4ee;
+  color: #3b5d46;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.haber-popup-baslik {
+  font-size: 19px;
+  font-weight: 700;
+  color: #223023;
+  margin: 0 0 10px;
+  line-height: 1.35;
+}
+
+.haber-popup-aciklama {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.65;
+  margin: 0 0 22px;
+}
+
+.haber-popup-butonlar {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.haber-popup-oku {
+  display: block;
+  text-align: center;
+  padding: 11px 20px;
+  background: #4a7c59;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+  transition: background 0.18s;
+}
+
+.haber-popup-oku:hover {
+  background: #3b6447;
+}
+
+.haber-popup-bugun {
+  background: none;
+  border: none;
+  color: #999;
+  font-size: 13px;
+  cursor: pointer;
+  text-align: center;
+  padding: 4px;
+  text-decoration: underline;
+}
+
+.haber-popup-bugun:hover {
+  color: #555;
+}
+
+@media (max-width: 520px) {
+  .haber-popup {
+    padding: 28px 20px 20px;
+    border-radius: 12px;
+  }
+
+  .haber-popup-baslik {
+    font-size: 17px;
+  }
+}

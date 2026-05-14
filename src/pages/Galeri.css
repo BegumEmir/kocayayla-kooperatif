@@ -39,6 +39,42 @@
   display: block;
 }
 
+/* Video thumbnail */
+.galeri-video-thumb {
+  position: relative;
+  width: 100%;
+  height: 180px;
+  background: #111;
+  overflow: hidden;
+}
+
+.galeri-video-thumb video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.galeri-play-icon {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 38px;
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 0 2px 8px rgba(0,0,0,0.6);
+  pointer-events: none;
+}
+
+/* Modal video */
+.modal-video {
+  width: 90%;
+  max-width: 900px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
 /* MODAL */
 .galeri-modal {
   position: fixed;
@@ -59,11 +95,13 @@
 
 /* Mobil uyum */
 @media (max-width: 600px) {
-  .galeri-item img {
+  .galeri-item img,
+  .galeri-video-thumb {
     height: 150px;
   }
 
-  .modal-img {
+  .modal-img,
+  .modal-video {
     width: 95%;
   }
 }

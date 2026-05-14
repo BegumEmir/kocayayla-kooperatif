@@ -10,12 +10,12 @@ import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import useDocumentTitle from "../hooks/useDocumentTitle";
+import HaberPopup from "../components/HaberPopup";
+import galeriItems from "../data/galeri";
 
 
 export default function Home() {
   useDocumentTitle("S.S. Kocayayla Köyü Tarımsal Kalkınma Kooperatifi | Çanakkale");
-const base = process.env.PUBLIC_URL;  
-
   const sonDuyurular = duyurular.slice().reverse().slice(0, 3);
   const sonHaberler = haberler.slice().reverse().slice(0, 3);
 
@@ -29,6 +29,8 @@ const base = process.env.PUBLIC_URL;
 
   return (
     <>
+      <HaberPopup />
+
       {/* HERO */}
       <div className="home-hero">
         <div className="home-hero-left">
@@ -177,29 +179,10 @@ const base = process.env.PUBLIC_URL;
             1024: { slidesPerView: 3 },
           }}
         >
-          {[
-            `${base}/galeri/ekibimiz.jpeg`,
-            `${base}/galeri/süt-toplama-merkezi-ekip-fotosu.jpeg`,
-            `${base}/galeri/çalışan-kepçe.jpeg`,
-            `${base}/galeri/haber-belge.jpeg`,
-            `${base}/galeri/yönetim-ekibi.jpeg`,
-            `${base}/galeri/yem-ezme-tesisi-ekip-fotosu.jpeg`,
-            `${base}/galeri/kepçe.jpeg`,
-            `${base}/galeri/değirmen.jpeg`,
-            `${base}/galeri/camii.png`,
-            `${base}/galeri/cami-yukardan.jpeg`,
-            `${base}/galeri/il-tarım-toplu-foto-belge.jpeg`,
-            `${base}/galeri/il-tarım-toplu-foto-yem-ezme-tesisi.jpeg`,
-            `${base}/galeri/il-tarım-toplu-süt-toplama-merkezi.jpeg`,
-            `${base}/galeri/manzara-ağaç.jpeg`,
-            `${base}/galeri/manzara-dikey.jpeg`,
-            `${base}/galeri/manzara.jpeg`,
-            `${base}/galeri/süt-soğutma-deposu-il-tarım.jpeg`,
-            `${base}/galeri/yatay-manzara.jpeg`,
-          ].map((src, i) => (
+          {galeriItems.filter((item) => item.type === "foto").slice().reverse().map((item, i) => (
             <SwiperSlide key={i}>
               <div className="gallery-slide">
-                <img src={src} alt="Kooperatif Galeri" />
+                <img src={item.src} alt="Kooperatif Galeri" />
               </div>
             </SwiperSlide>
           ))}
