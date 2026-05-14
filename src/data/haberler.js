@@ -41,7 +41,7 @@ const haberler = [
       🧑🏻‍🌾 Üretiminize değer katmak için örgütlü tarımın gücüne dahil olun 🌱✨`,
     tarih: "30 Aralık 2025",
     medya: [
-      { type: "foto", src: `${base}/galeri/birinci-derece-kooperatif.jpeg` },
+      { type: "video", src: `${base}/galeri/birinci-derece-koop.mp4` },
     ],
   },
 
@@ -80,7 +80,7 @@ const haberler = [
     detay: `2026 yılında da üyelerimizin desteğiyle büyümeye devam ediyoruz. Bu yıl birinci derece tarımsal kooperatif statüsüne kavuştuk, resmi web sitemizi hayata geçirdik; 2 tonluk süt tankımız, yangın söndürme tankerimiz ve yeni traktör kepçemizle köyümüze hizmet etmeye devam ediyoruz.`,
     tarih: "14 Mayıs 2026",
     medya: [
-      { type: "video", src: `${base}/galeri/kocayayla.mp4` },
+      { type: "video", src: `${base}/galeri/kocayayla2026.mp4` },
       { type: "foto", src: `${base}/galeri/2-ton-sut-tanki.jpeg` },
       { type: "foto", src: `${base}/galeri/sut-tankeri-yandan.jpeg` },
       { type: "foto", src: `${base}/galeri/yangin-sondurme-tankeri.jpeg` },

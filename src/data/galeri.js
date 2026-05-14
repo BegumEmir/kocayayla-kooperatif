@@ -18,6 +18,7 @@ const galeriItems = [
   { type: "foto", src: `${base}/galeri/manzara-dikey.jpeg` },
   { type: "foto", src: `${base}/galeri/manzara.jpeg` },
   { type: "foto", src: `${base}/galeri/süt-soğutma-deposu-il-tarım.jpeg` },
+  { type: "video", src: `${base}/galeri/birinci-derece-koop.mp4` },
   { type: "foto", src: `${base}/galeri/yatay-manzara.jpeg` },
   { type: "foto", src: `${base}/galeri/yeni_yönetim.jpeg` },
   { type: "foto", src: `${base}/galeri/genel-kurul.jpeg` },
@@ -27,7 +28,7 @@ const galeriItems = [
   { type: "foto", src: `${base}/galeri/yeni-kepce-toplu-foto.jpeg` },
   { type: "foto", src: `${base}/galeri/yangin-sondurme-tankeri.jpeg` },
   { type: "foto", src: `${base}/galeri/2-ton-sut-tanki.jpeg` },
-  { type: "video", src: `${base}/galeri/kocayayla.mp4` },
+  { type: "video", src: `${base}/galeri/kocayayla2026.mp4` },
   { type: "video", src: `${base}/galeri/yeni-kepce.mp4` },
 ];
 
