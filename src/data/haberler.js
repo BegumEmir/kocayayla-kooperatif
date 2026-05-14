@@ -76,8 +76,8 @@ const haberler = [
     kategori: "Haberler",
     baslik: "Üyelerimizin Gücüyle 2026'da da İlerliyoruz",
     aciklama:
-      "2026 yılında da üyelerimizin desteğiyle büyümeye devam ediyoruz. Bu yıl birinci derece tarımsal kooperatif statüsüne kavuştuk, resmi web sitemizi hayata geçirdik; 2 tonluk süt tankımız, yangın söndürme tankerimiz ve yeni traktör kepçemizle köyümüze hizmet etmeye devam ediyoruz.",
-    detay: `2026 yılında da üyelerimizin desteğiyle büyümeye devam ediyoruz. Bu yıl birinci derece tarımsal kooperatif statüsüne kavuştuk, resmi web sitemizi hayata geçirdik; 2 tonluk süt tankımız, yangın söndürme tankerimiz ve yeni traktör kepçemizle köyümüze hizmet etmeye devam ediyoruz.`,
+      "2026 yılında üyelerimizden aldığımız güç ile kooperatifimize değer katmaya devam ediyoruz. Birinci derece tarımsal kooperatif statüsüne kavuştuk, resmi web sitemizi hayata geçirdik. Yeni süt tankımız, yeni yangın söndürme tankerimiz ve yeni traktör kepçemizle köyümüzün yanında olmaya devam edeceğiz.",
+    detay: `2026 yılında üyelerimizden aldığımız güç ile kooperatifimize değer katmaya devam ediyoruz. Birinci derece tarımsal kooperatif statüsüne kavuştuk, resmi web sitemizi hayata geçirdik. Yeni süt tankımız, yeni yangın söndürme tankerimiz ve yeni traktör kepçemizle köyümüzün yanında olmaya devam edeceğiz.`,
     tarih: "14 Mayıs 2026",
     medya: [
       { type: "video", src: `${base}/galeri/kocayayla2026.mp4` },
